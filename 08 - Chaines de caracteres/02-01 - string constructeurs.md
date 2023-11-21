@@ -12,6 +12,7 @@ _Il se peut qu'une séquence provoque une erreur à la compilation ou à l'exéc
 string s1 = "ABC";
 string s2(s1, 1);
 cout << '|' << s2 << '|' << endl;
+//|A|
 ~~~
 
 2.
@@ -19,6 +20,7 @@ cout << '|' << s2 << '|' << endl;
 string s1 = "ABC";
 string s2(s1, 2, 3);
 cout << '|' << s2 << '|' << endl;
+//|C|
 ~~~
 
 3.	
@@ -26,6 +28,7 @@ cout << '|' << s2 << '|' << endl;
 string s1 = "ABC";
 string s2(s1, 3, 2);
 cout << '|' << s2 << '|' << endl;
+//||
 ~~~
 
 4.	
@@ -33,30 +36,36 @@ cout << '|' << s2 << '|' << endl;
 string s1 = "ABC";
 string s2(s1, 4, 1);
 cout << '|' << s2 << '|' << endl;
+//erreur exec
 ~~~
 
 5.	
 ~~~cpp
 string s("ABC", 3);
 cout << '|' << s << '|' << endl;
+//|ABC|
+
 ~~~
 
 6.	
 ~~~cpp
 string s("ABC", 4);
 cout << '|' << s << '|' << endl;
+//|ABC|
 ~~~
 
 7.	
 ~~~cpp
 string s("ABC", 5);
 cout << '|' << s << '|' << endl;
+//indef
 ~~~
 
 8.	
 ~~~cpp
 string s(3, 'A');
 cout << '|' << s << '|' << endl;
+
 ~~~
 
 

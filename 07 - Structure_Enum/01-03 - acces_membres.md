@@ -19,15 +19,25 @@ Cercle* ptr = &cercle;
 Les instructions sont-elles correctes ?
 
 1. `cout << cercle.rayon;`
+//oui rayon est un élément de cercle
 2. `cout << cercle->rayon;`
+//non c'est ptr qu'il faut déréférencer
 3. `cout << *(&cercle).rayon;`
+4. // le point est prio sur "*" donc manque une parenthèse
 4. `cercle.centre = origine;`
+   //oui origine est de type Coord
 5. `ptr.rayon = 2;`
+    //non, il faut déréférencer
 6. `*ptr.rayon = 2;`
+//manque les parenthèses pour que le déréférencement soit prioritaire
 7. `cercle.centre.x = 2;`
+//oui
 8. `ptr.centre.x = 2;`
+//toujours pas
 9. `Coord coord1 = cercle.centre;`
+//oui centre est de type Coord
 10. `Coord coord2 = ptr->centre;`
+//oui ptr peut être déréférencé
 
 <details>
 <summary>Solutions</summary>

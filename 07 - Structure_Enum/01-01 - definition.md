@@ -7,6 +7,7 @@ Indiquer si les définitions proposées sont correctes ou non.
 struct Date {
    int jour, mois, annee;
 }
+//non, manque ";" à la fin
 ~~~
 
 2.
@@ -17,6 +18,7 @@ struct Date {
    int mois;
    int annee;
 };
+//correct
 ~~~
 
 3.
@@ -25,6 +27,7 @@ struct Date {
 struct Date {
    int jour, mois, annee;
 };
+//non pas de ";"
 ~~~
 
 4.
@@ -33,6 +36,7 @@ struct Date {
 struct Date {
    int jour; mois; annee;
 };
+//non pas de "; entre la déclaration des membres sur une seule ligne
 ~~~
 
 5.
@@ -41,12 +45,14 @@ struct Date {
 struct {
    int valeur;
 } date;
+//correct
 ~~~
 
 6.
 
 ~~~cpp
 struct Vide {};
+//correct
 ~~~
 
 7.
@@ -56,6 +62,7 @@ struct Struct {
    int  valeur;
    int* ptr = nullptr;
 };
+//correct
 ~~~
 
 8.
@@ -64,6 +71,7 @@ struct Struct {
 struct Struct {
    string text;
 };
+//correct
 ~~~
 
 9.
@@ -77,6 +85,7 @@ struct Struct {
    char    car;
    Details details;
 };
+//correct
 ~~~
 
 10.
@@ -85,6 +94,7 @@ struct Struct {
 struct const Struct {
    int  valeur;
 };
+//non, pas de const struct
 ~~~
 
 11.
@@ -93,6 +103,7 @@ struct const Struct {
 struct Struct {
    const char car = 'A';
 };
+//correct mais déconseillé de mettre des valeurs constantes dans des structures copiables
 ~~~
 
 12.
@@ -101,6 +112,7 @@ struct Struct {
 struct Struct {
    const char c;
 };
+//Same mais c doit être init
 ~~~
 
 

@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PRG1_Recueil_Exercices",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-04-Date_Personne::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-04-Date_Personne-Debug-91b2d47c746e19f5e66e.json",
+					"name" : "01-04-Date_Personne",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-05-est_bissextile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-05-est_bissextile-Debug-f3f05f4c0d8224fc64f1.json",
+					"name" : "01-05-est_bissextile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-06-Nombre_jours_entre_2_dates::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-06-Nombre_jours_entre_2_dates-Debug-8a49177c6e02f4211f57.json",
+					"name" : "01-06-Nombre_jours_entre_2_dates",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-01-Milieu-chaine-caractere::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-01-Milieu-chaine-caractere-Debug-05fc9d5005cbc60ca673.json",
+					"name" : "03-01-Milieu-chaine-caractere",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-02-Chiffres_romains::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-02-Chiffres_romains-Debug-9a1bfdbec6f9e81d5b01.json",
+					"name" : "03-02-Chiffres_romains",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-03-Analyse_nombre_entier::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-03-Analyse_nombre_entier-Debug-7eb844cd649b4802d86a.json",
+					"name" : "03-03-Analyse_nombre_entier",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-03-Deplacer_point::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-03-Deplacer_point-Debug-6ef9b134e1fe1c8ce107.json",
+					"name" : "03-03-Deplacer_point",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-04-Chiffre_en_toute_lettre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-04-Chiffre_en_toute_lettre-Debug-e7de38a5deddce890df3.json",
+					"name" : "03-04-Chiffre_en_toute_lettre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-04-Nom_acronyme::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-04-Nom_acronyme-Debug-ba5a4d4aa2254b2fc955.json",
+					"name" : "03-04-Nom_acronyme",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-05-Coordonnees_GPS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-05-Coordonnees_GPS-Debug-8dd03c150730018c59e4.json",
+					"name" : "03-05-Coordonnees_GPS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-05-Palindrome::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-05-Palindrome-Debug-b4ab3d2ea182886a9e8e.json",
+					"name" : "03-05-Palindrome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04-02-Compter_occurences::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-02-Compter_occurences-Debug-21cd6bda96a7efa87eca.json",
+					"name" : "04-02-Compter_occurences",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug",
+		"source" : "/home/enigma/CLionProjects/PRG1_Recueil_Exercices"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

@@ -24,6 +24,7 @@ Que valent les déclarations proposées ?
 8. `Coord  coord  = {.x=1,       .z=3};`
 9. `Coord  coord;`
 
+1. 
 <details>
 <summary>Solutions</summary>
 

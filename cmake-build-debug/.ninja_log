@@ -1,0 +1,22 @@
+# ninja log v5
+103	133	1700308232243703567	01-05-est_bissextile	e93ad224d6590a4a
+133	164	1700427413850730951	03-05-Palindrome	daf4a77434d8a912
+0	113	1700338931221199737	CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp.o	a0c030638d51e3c7
+0	104	1700345852794101185	CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp.o	d9353821e8f5c8cf
+127	157	1700425070262957553	03-04-Nom_acronyme	3346400e21b9241c
+148	177	1700423654668639202	03-03-Analyse_nombre_entier	21c14553bb9bc4c7
+108	139	1700417810193761239	03-01-Milieu-chaine-caractere	390c9b40ee1904c5
+0	107	1700417810165760457	CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp.o	e9fb76cd81f94f9c
+112	142	1700422804905407138	03-02-Chiffres_romains	8425fe02f68fb6c5
+0	10	1700427669659295846	build.ninja	50a83e9fb9fc0dc8
+0	111	1700305779503795692	CMakeFiles/PRG1_Recueil_Exercices.dir/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp.o	3cb694261769510b
+0	148	1700423654640639892	CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp.o	537002ab571fec73
+104	136	1700345852830101539	03-04-Chiffre_en_toute_lettre	81d55e31ea4d8812
+0	103	1700308232215703327	CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp.o	928cdd56f78dbd1c
+111	144	1700305779539796092	PRG1_Recueil_Exercices	de33fe3a0e4c3d8c
+0	127	1700425070230957535	CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp.o	478ab472f10fd1fd
+0	112	1700422804873411601	CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp.o	c08e8f4ff8a95e9c
+113	142	1700338931249199939	01-06-Nombre_jours_entre_2_dates	87a1630a6b4319ae
+0	133	1700427413818730881	CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp.o	2941e122fcbbc3bd
+0	182	1700428833187276603	CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp.o	e8aeef110b258517
+182	216	1700428833219278235	04-02-Compter_occurences	2d353d2ed695feca

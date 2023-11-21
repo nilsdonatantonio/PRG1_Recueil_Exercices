@@ -11,6 +11,7 @@ string s1 = "ABC";
 string s2 = "123";
 s1.insert(1, s2); 
 cout << '|' << s1 << '|' << endl;
+//|AB123C|
 ~~~
 
 <details>
@@ -26,6 +27,7 @@ string s1 = "ABC";
 string s2 = "123";
 s1.insert(4, s2); 
 cout << '|' << s1 << '|' << endl;
+//Erreur exec
 ~~~
 
 <details>
@@ -42,6 +44,7 @@ string s1 = "ABC";
 string s2 = "123";
 s1.insert(2, s2, 1, 2); 
 cout << '|' << s1 << '|' << endl;
+//|AB23C|
 ~~~
 
 <details>
@@ -57,6 +60,7 @@ string s1 = "ABC";
 string s2 = "123";
 s1.insert(2, s2, 0, string::npos); 
 cout << '|' << s1 << '|' << endl;
+//|AB123C|
 ~~~
 
 <details>
@@ -71,6 +75,7 @@ cout << '|' << s1 << '|' << endl;
 string s = "ABC";
 s.insert(3, "123", 2); 
 cout << '|' << s << '|' << endl;
+//|ABC12|
 ~~~
 
 <details>
@@ -85,6 +90,7 @@ cout << '|' << s << '|' << endl;
 string s = "ABC";
 s.insert(1, 2, '3'); 
 cout << '|' << s << '|' << endl;
+//|A33BC|
 ~~~
 
 <details>
@@ -99,6 +105,7 @@ string s1 = "ABCDEF";
 string s2 = "123";
 s1.replace(1, 2, s2); 
 cout << '|' << s1 << '|' << endl;
+//|A123123BCDEF|
 ~~~
 
 <details>
@@ -114,6 +121,7 @@ string s1 = "ABCDEF";
 string s2 = "123";
 s1.replace(2, 4, s2); 
 cout << '|' << s1 << '|' << endl;
+// |AB123|
 ~~~ 
 
 <details>
@@ -128,6 +136,7 @@ string s1 = "ABCDEF";
 string s2 = "123";
 s1.replace(1, 2, s2, 1, 2); 
 cout << '|' << s1 << '|' << endl;
+// |A23DEF|
 ~~~
 
 <details>
@@ -142,6 +151,7 @@ cout << '|' << s1 << '|' << endl;
 string s = "ABCDEF";
 s.replace(2, 3, "123", 2); 
 cout << '|' << s << '|' << endl;
+// |AB12F|
 ~~~
 
 <details>
@@ -156,6 +166,7 @@ cout << '|' << s << '|' << endl;
 string s = "ABCDEF";
 s.erase(); 
 cout << '|' << s << '|' << endl;
+//""
 ~~~
 
 <details>
@@ -170,6 +181,7 @@ cout << '|' << s << '|' << endl;
 string s = "ABCDEF";
 s.erase(2); 
 cout << '|' << s << '|' << endl;
+// |AB|
 ~~~
 
 <details>
@@ -184,6 +196,7 @@ cout << '|' << s << '|' << endl;
 string s = "ABCDEF";
 s.erase(2, 2); 
 cout << '|' << s << '|' << endl;
+// |ABEF|
 ~~~
 
 <details>
