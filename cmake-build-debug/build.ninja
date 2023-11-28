@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_01-04-Date_Personne: phony || CMakeFiles
 
 build CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp.o: CXX_COMPILER__01-04-Date_Personne_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp || cmake_object_order_depends_target_01-04-Date_Personne
   DEP_FILE = CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/01-04-Date_Personne.dir
   OBJECT_FILE_DIR = CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum
 
@@ -82,7 +82,7 @@ build cmake_object_order_depends_target_01-05-est_bissextile: phony || CMakeFile
 
 build CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp.o: CXX_COMPILER__01-05-est_bissextile_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp || cmake_object_order_depends_target_01-05-est_bissextile
   DEP_FILE = CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/01-05-est_bissextile.dir
   OBJECT_FILE_DIR = CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum
 
@@ -113,7 +113,7 @@ build cmake_object_order_depends_target_01-06-Nombre_jours_entre_2_dates: phony 
 
 build CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp.o: CXX_COMPILER__01-06-Nombre_jours_entre_2_dates_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp || cmake_object_order_depends_target_01-06-Nombre_jours_entre_2_dates
   DEP_FILE = CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir
   OBJECT_FILE_DIR = CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum
 
@@ -144,7 +144,7 @@ build cmake_object_order_depends_target_03-03-Deplacer_point: phony || CMakeFile
 
 build CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp.o: CXX_COMPILER__03-03-Deplacer_point_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp || cmake_object_order_depends_target_03-03-Deplacer_point
   DEP_FILE = CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/03-03-Deplacer_point.dir
   OBJECT_FILE_DIR = CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum
 
@@ -175,7 +175,7 @@ build cmake_object_order_depends_target_03-04-Chiffre_en_toute_lettre: phony || 
 
 build CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp.o: CXX_COMPILER__03-04-Chiffre_en_toute_lettre_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp || cmake_object_order_depends_target_03-04-Chiffre_en_toute_lettre
   DEP_FILE = CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/03-04-Chiffre_en_toute_lettre.dir
   OBJECT_FILE_DIR = CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum
 
@@ -206,7 +206,7 @@ build cmake_object_order_depends_target_03-05-Coordonnees_GPS: phony || CMakeFil
 
 build CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp.o: CXX_COMPILER__03-05-Coordonnees_GPS_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp || cmake_object_order_depends_target_03-05-Coordonnees_GPS
   DEP_FILE = CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/03-05-Coordonnees_GPS.dir
   OBJECT_FILE_DIR = CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum
 
@@ -237,7 +237,7 @@ build cmake_object_order_depends_target_03-01-Milieu-chaine-caractere: phony || 
 
 build CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp.o: CXX_COMPILER__03-01-Milieu-chaine-caractere_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp || cmake_object_order_depends_target_03-01-Milieu-chaine-caractere
   DEP_FILE = CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/03-01-Milieu-chaine-caractere.dir
   OBJECT_FILE_DIR = CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres
 
@@ -268,7 +268,7 @@ build cmake_object_order_depends_target_03-02-Chiffres_romains: phony || CMakeFi
 
 build CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp.o: CXX_COMPILER__03-02-Chiffres_romains_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp || cmake_object_order_depends_target_03-02-Chiffres_romains
   DEP_FILE = CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/03-02-Chiffres_romains.dir
   OBJECT_FILE_DIR = CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres
 
@@ -299,7 +299,7 @@ build cmake_object_order_depends_target_03-03-Analyse_nombre_entier: phony || CM
 
 build CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp.o: CXX_COMPILER__03-03-Analyse_nombre_entier_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp || cmake_object_order_depends_target_03-03-Analyse_nombre_entier
   DEP_FILE = CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/03-03-Analyse_nombre_entier.dir
   OBJECT_FILE_DIR = CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres
 
@@ -330,7 +330,7 @@ build cmake_object_order_depends_target_03-04-Nom_acronyme: phony || CMakeFiles/
 
 build CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp.o: CXX_COMPILER__03-04-Nom_acronyme_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp || cmake_object_order_depends_target_03-04-Nom_acronyme
   DEP_FILE = CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/03-04-Nom_acronyme.dir
   OBJECT_FILE_DIR = CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres
 
@@ -361,7 +361,7 @@ build cmake_object_order_depends_target_03-05-Palindrome: phony || CMakeFiles/03
 
 build CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp.o: CXX_COMPILER__03-05-Palindrome_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp || cmake_object_order_depends_target_03-05-Palindrome
   DEP_FILE = CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/03-05-Palindrome.dir
   OBJECT_FILE_DIR = CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres
 
@@ -392,7 +392,7 @@ build cmake_object_order_depends_target_04-02-Compter_occurences: phony || CMake
 
 build CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp.o: CXX_COMPILER__04-02-Compter_occurences_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp || cmake_object_order_depends_target_04-02-Compter_occurences
   DEP_FILE = CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/04-02-Compter_occurences.dir
   OBJECT_FILE_DIR = CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres
 
@@ -411,6 +411,291 @@ build 04-02-Compter_occurences: CXX_EXECUTABLE_LINKER__04-02-Compter_occurences_
   PRE_LINK = :
   TARGET_FILE = 04-02-Compter_occurences
   TARGET_PDB = 04-02-Compter_occurences.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-06-Calcul_vectoriel
+
+
+#############################################
+# Order-only phony target for 01-06-Calcul_vectoriel
+
+build cmake_object_order_depends_target_01-06-Calcul_vectoriel: phony || CMakeFiles/01-06-Calcul_vectoriel.dir
+
+build CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp.o: CXX_COMPILER__01-06-Calcul_vectoriel_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp || cmake_object_order_depends_target_01-06-Calcul_vectoriel
+  DEP_FILE = CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux
+
+build CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o: CXX_COMPILER__01-06-Calcul_vectoriel_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-08-Jour.cpp || cmake_object_order_depends_target_01-06-Calcul_vectoriel
+  DEP_FILE = CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-06-Calcul_vectoriel
+
+
+#############################################
+# Link the executable 01-06-Calcul_vectoriel
+
+build 01-06-Calcul_vectoriel: CXX_EXECUTABLE_LINKER__01-06-Calcul_vectoriel_Debug CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp.o CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01-06-Calcul_vectoriel
+  TARGET_PDB = 01-06-Calcul_vectoriel.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-07-Rendre_unique
+
+
+#############################################
+# Order-only phony target for 02-07-Rendre_unique
+
+build cmake_object_order_depends_target_02-07-Rendre_unique: phony || CMakeFiles/02-07-Rendre_unique.dir
+
+build CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux/02-07-Rendre_unique.cpp.o: CXX_COMPILER__02-07-Rendre_unique_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-07-Rendre_unique.cpp || cmake_object_order_depends_target_02-07-Rendre_unique
+  DEP_FILE = CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux/02-07-Rendre_unique.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/02-07-Rendre_unique.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-07-Rendre_unique
+
+
+#############################################
+# Link the executable 02-07-Rendre_unique
+
+build 02-07-Rendre_unique: CXX_EXECUTABLE_LINKER__02-07-Rendre_unique_Debug CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux/02-07-Rendre_unique.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/02-07-Rendre_unique.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-07-Rendre_unique
+  TARGET_PDB = 02-07-Rendre_unique.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-07-Recherche_dichotomique
+
+
+#############################################
+# Order-only phony target for 03-07-Recherche_dichotomique
+
+build cmake_object_order_depends_target_03-07-Recherche_dichotomique: phony || CMakeFiles/03-07-Recherche_dichotomique.dir
+
+build CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp.o: CXX_COMPILER__03-07-Recherche_dichotomique_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp || cmake_object_order_depends_target_03-07-Recherche_dichotomique
+  DEP_FILE = CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03-07-Recherche_dichotomique.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-07-Recherche_dichotomique
+
+
+#############################################
+# Link the executable 03-07-Recherche_dichotomique
+
+build 03-07-Recherche_dichotomique: CXX_EXECUTABLE_LINKER__03-07-Recherche_dichotomique_Debug CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/03-07-Recherche_dichotomique.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-07-Recherche_dichotomique
+  TARGET_PDB = 03-07-Recherche_dichotomique.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-07-Stack
+
+
+#############################################
+# Order-only phony target for 01-07-Stack
+
+build cmake_object_order_depends_target_01-07-Stack: phony || CMakeFiles/01-07-Stack.dir
+
+build CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux/01-07-Stack.cpp.o: CXX_COMPILER__01-07-Stack_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-07-Stack.cpp || cmake_object_order_depends_target_01-07-Stack
+  DEP_FILE = CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux/01-07-Stack.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01-07-Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-07-Stack
+
+
+#############################################
+# Link the executable 01-07-Stack
+
+build 01-07-Stack: CXX_EXECUTABLE_LINKER__01-07-Stack_Debug CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux/01-07-Stack.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/01-07-Stack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01-07-Stack
+  TARGET_PDB = 01-07-Stack.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-08-Jour
+
+
+#############################################
+# Order-only phony target for 01-08-Jour
+
+build cmake_object_order_depends_target_01-08-Jour: phony || CMakeFiles/01-08-Jour.dir
+
+build CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o: CXX_COMPILER__01-08-Jour_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-08-Jour.cpp || cmake_object_order_depends_target_01-08-Jour
+  DEP_FILE = CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/01-08-Jour.dir
+  OBJECT_FILE_DIR = CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-08-Jour
+
+
+#############################################
+# Link the executable 01-08-Jour
+
+build 01-08-Jour: CXX_EXECUTABLE_LINKER__01-08-Jour_Debug CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/01-08-Jour.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 01-08-Jour
+  TARGET_PDB = 01-08-Jour.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-03-To_string
+
+
+#############################################
+# Order-only phony target for 02-03-To_string
+
+build cmake_object_order_depends_target_02-03-To_string: phony || CMakeFiles/02-03-To_string.dir
+
+build CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux/02-03-To_string.cpp.o: CXX_COMPILER__02-03-To_string_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-03-To_string.cpp || cmake_object_order_depends_target_02-03-To_string
+  DEP_FILE = CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux/02-03-To_string.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/02-03-To_string.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-03-To_string
+
+
+#############################################
+# Link the executable 02-03-To_string
+
+build 02-03-To_string: CXX_EXECUTABLE_LINKER__02-03-To_string_Debug CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux/02-03-To_string.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/02-03-To_string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-03-To_string
+  TARGET_PDB = 02-03-To_string.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-04-Rotate_right
+
+
+#############################################
+# Order-only phony target for 02-04-Rotate_right
+
+build cmake_object_order_depends_target_02-04-Rotate_right: phony || CMakeFiles/02-04-Rotate_right.dir
+
+build CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux/02-04-Rotate_right.cpp.o: CXX_COMPILER__02-04-Rotate_right_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-04-Rotate_right.cpp || cmake_object_order_depends_target_02-04-Rotate_right
+  DEP_FILE = CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux/02-04-Rotate_right.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/02-04-Rotate_right.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-04-Rotate_right
+
+
+#############################################
+# Link the executable 02-04-Rotate_right
+
+build 02-04-Rotate_right: CXX_EXECUTABLE_LINKER__02-04-Rotate_right_Debug CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux/02-04-Rotate_right.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/02-04-Rotate_right.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-04-Rotate_right
+  TARGET_PDB = 02-04-Rotate_right.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-05-Supprimer_elements_centraux
+
+
+#############################################
+# Order-only phony target for 02-05-Supprimer_elements_centraux
+
+build cmake_object_order_depends_target_02-05-Supprimer_elements_centraux: phony || CMakeFiles/02-05-Supprimer_elements_centraux.dir
+
+build CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp.o: CXX_COMPILER__02-05-Supprimer_elements_centraux_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp || cmake_object_order_depends_target_02-05-Supprimer_elements_centraux
+  DEP_FILE = CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/02-05-Supprimer_elements_centraux.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-05-Supprimer_elements_centraux
+
+
+#############################################
+# Link the executable 02-05-Supprimer_elements_centraux
+
+build 02-05-Supprimer_elements_centraux: CXX_EXECUTABLE_LINKER__02-05-Supprimer_elements_centraux_Debug CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/02-05-Supprimer_elements_centraux.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-05-Supprimer_elements_centraux
+  TARGET_PDB = 02-05-Supprimer_elements_centraux.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-06-Supprimer_valeur
+
+
+#############################################
+# Order-only phony target for 02-06-Supprimer_valeur
+
+build cmake_object_order_depends_target_02-06-Supprimer_valeur: phony || CMakeFiles/02-06-Supprimer_valeur.dir
+
+build CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp.o: CXX_COMPILER__02-06-Supprimer_valeur_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp || cmake_object_order_depends_target_02-06-Supprimer_valeur
+  DEP_FILE = CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/02-06-Supprimer_valeur.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-06-Supprimer_valeur
+
+
+#############################################
+# Link the executable 02-06-Supprimer_valeur
+
+build 02-06-Supprimer_valeur: CXX_EXECUTABLE_LINKER__02-06-Supprimer_valeur_Debug CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/02-06-Supprimer_valeur.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-06-Supprimer_valeur
+  TARGET_PDB = 02-06-Supprimer_valeur.dbg
 
 
 #############################################
@@ -446,7 +731,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug
 
-build all: phony 01-04-Date_Personne 01-05-est_bissextile 01-06-Nombre_jours_entre_2_dates 03-03-Deplacer_point 03-04-Chiffre_en_toute_lettre 03-05-Coordonnees_GPS 03-01-Milieu-chaine-caractere 03-02-Chiffres_romains 03-03-Analyse_nombre_entier 03-04-Nom_acronyme 03-05-Palindrome 04-02-Compter_occurences
+build all: phony 01-04-Date_Personne 01-05-est_bissextile 01-06-Nombre_jours_entre_2_dates 03-03-Deplacer_point 03-04-Chiffre_en_toute_lettre 03-05-Coordonnees_GPS 03-01-Milieu-chaine-caractere 03-02-Chiffres_romains 03-03-Analyse_nombre_entier 03-04-Nom_acronyme 03-05-Palindrome 04-02-Compter_occurences 01-06-Calcul_vectoriel 02-07-Rendre_unique 03-07-Recherche_dichotomique 01-07-Stack 01-08-Jour 02-03-To_string 02-04-Rotate_right 02-05-Supprimer_elements_centraux 02-06-Supprimer_valeur
 
 # =============================================================================
 # Built-in targets

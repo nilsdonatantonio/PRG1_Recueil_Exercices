@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "04-02-Compter_occurences"
+			"path" : "01-06-Calcul_vectoriel"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 28,
 				"parent" : 0
 			}
 		]
@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -45,15 +45,16 @@
 				[
 					1
 				],
-				"standard" : "17"
+				"standard" : "20"
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
-	"id" : "04-02-Compter_occurences::@6890427a1f51a3e7e1df",
+	"id" : "01-06-Calcul_vectoriel::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +70,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "04-02-Compter_occurences",
-	"nameOnDisk" : "04-02-Compter_occurences",
+	"name" : "01-06-Calcul_vectoriel",
+	"nameOnDisk" : "01-06-Calcul_vectoriel",
 	"paths" : 
 	{
 		"build" : ".",
@@ -82,7 +83,8 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				1
 			]
 		}
 	],
@@ -91,7 +93,13 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp",
+			"path" : "Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Exercices/09-Tableaux/01-08-Jour.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

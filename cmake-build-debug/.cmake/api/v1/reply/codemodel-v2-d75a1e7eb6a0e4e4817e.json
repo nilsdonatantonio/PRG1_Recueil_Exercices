@@ -1,0 +1,240 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PRG1_Recueil_Exercices",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "01-04-Date_Personne::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-04-Date_Personne-Debug-a1602eb7de60305c4424.json",
+					"name" : "01-04-Date_Personne",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-05-est_bissextile::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-05-est_bissextile-Debug-4a6c8b9ea2115b27abbc.json",
+					"name" : "01-05-est_bissextile",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-06-Calcul_vectoriel::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-06-Calcul_vectoriel-Debug-5a0653cdbb10d5fbf630.json",
+					"name" : "01-06-Calcul_vectoriel",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-06-Nombre_jours_entre_2_dates::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-06-Nombre_jours_entre_2_dates-Debug-1ca4121390775c192ea8.json",
+					"name" : "01-06-Nombre_jours_entre_2_dates",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-07-Stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-07-Stack-Debug-a2219c650f1423b3aa04.json",
+					"name" : "01-07-Stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-08-Jour::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-08-Jour-Debug-69e3fe64e8ccec9aa096.json",
+					"name" : "01-08-Jour",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-03-To_string::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-03-To_string-Debug-6563119797b306c41837.json",
+					"name" : "02-03-To_string",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-04-Rotate_right::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-04-Rotate_right-Debug-5be5dd3fd51eba508a5d.json",
+					"name" : "02-04-Rotate_right",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-05-Supprimer_elements_centraux::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-05-Supprimer_elements_centraux-Debug-724ce06c92995e255159.json",
+					"name" : "02-05-Supprimer_elements_centraux",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-06-Supprimer_valeur::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-06-Supprimer_valeur-Debug-1e05d7de22ece3c683b4.json",
+					"name" : "02-06-Supprimer_valeur",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-07-Rendre_unique::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-07-Rendre_unique-Debug-904b829992441743f079.json",
+					"name" : "02-07-Rendre_unique",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-01-Milieu-chaine-caractere::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-01-Milieu-chaine-caractere-Debug-d73b7bd9f2bead3a03f2.json",
+					"name" : "03-01-Milieu-chaine-caractere",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-02-Chiffres_romains::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-02-Chiffres_romains-Debug-0338cc6045e31e5395bb.json",
+					"name" : "03-02-Chiffres_romains",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-03-Analyse_nombre_entier::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-03-Analyse_nombre_entier-Debug-9ddb4bac4ea0424561c6.json",
+					"name" : "03-03-Analyse_nombre_entier",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-03-Deplacer_point::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-03-Deplacer_point-Debug-0e6afb92ec5fd54e0fec.json",
+					"name" : "03-03-Deplacer_point",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-04-Chiffre_en_toute_lettre::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-04-Chiffre_en_toute_lettre-Debug-596359f8ef81a4d971e0.json",
+					"name" : "03-04-Chiffre_en_toute_lettre",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-04-Nom_acronyme::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-04-Nom_acronyme-Debug-e11c4caa8d1bf1eddb56.json",
+					"name" : "03-04-Nom_acronyme",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-05-Coordonnees_GPS::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-05-Coordonnees_GPS-Debug-7b86403ea703c9059312.json",
+					"name" : "03-05-Coordonnees_GPS",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-05-Palindrome::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-05-Palindrome-Debug-4581d45a8fa6825a64dd.json",
+					"name" : "03-05-Palindrome",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-07-Recherche_dichotomique::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-07-Recherche_dichotomique-Debug-38368c36653bdfd1433c.json",
+					"name" : "03-07-Recherche_dichotomique",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "04-02-Compter_occurences::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-04-02-Compter_occurences-Debug-14bda14f09068b6d05b4.json",
+					"name" : "04-02-Compter_occurences",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug",
+		"source" : "/home/enigma/CLionProjects/PRG1_Recueil_Exercices"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
