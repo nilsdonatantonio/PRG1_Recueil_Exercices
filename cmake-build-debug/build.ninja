@@ -697,6 +697,254 @@ build 02-06-Supprimer_valeur: CXX_EXECUTABLE_LINKER__02-06-Supprimer_valeur_Debu
   TARGET_FILE = 02-06-Supprimer_valeur
   TARGET_PDB = 02-06-Supprimer_valeur.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-08-Moyenne_notes
+
+
+#############################################
+# Order-only phony target for 02-08-Moyenne_notes
+
+build cmake_object_order_depends_target_02-08-Moyenne_notes: phony || CMakeFiles/02-08-Moyenne_notes.dir
+
+build CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp.o: CXX_COMPILER__02-08-Moyenne_notes_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp || cmake_object_order_depends_target_02-08-Moyenne_notes
+  DEP_FILE = CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/02-08-Moyenne_notes.dir
+  OBJECT_FILE_DIR = CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-08-Moyenne_notes
+
+
+#############################################
+# Link the executable 02-08-Moyenne_notes
+
+build 02-08-Moyenne_notes: CXX_EXECUTABLE_LINKER__02-08-Moyenne_notes_Debug CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/02-08-Moyenne_notes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 02-08-Moyenne_notes
+  TARGET_PDB = 02-08-Moyenne_notes.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-02-To_string
+
+
+#############################################
+# Order-only phony target for 03-02-To_string
+
+build cmake_object_order_depends_target_03-02-To_string: phony || CMakeFiles/03-02-To_string.dir
+
+build CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux/03-02-To_string.cpp.o: CXX_COMPILER__03-02-To_string_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-02-To_string.cpp || cmake_object_order_depends_target_03-02-To_string
+  DEP_FILE = CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux/03-02-To_string.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03-02-To_string.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-02-To_string
+
+
+#############################################
+# Link the executable 03-02-To_string
+
+build 03-02-To_string: CXX_EXECUTABLE_LINKER__03-02-To_string_Debug CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux/03-02-To_string.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/03-02-To_string.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-02-To_string
+  TARGET_PDB = 03-02-To_string.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-03-Remplacement_valeur
+
+
+#############################################
+# Order-only phony target for 03-03-Remplacement_valeur
+
+build cmake_object_order_depends_target_03-03-Remplacement_valeur: phony || CMakeFiles/03-03-Remplacement_valeur.dir
+
+build CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp.o: CXX_COMPILER__03-03-Remplacement_valeur_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp || cmake_object_order_depends_target_03-03-Remplacement_valeur
+  DEP_FILE = CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03-03-Remplacement_valeur.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-03-Remplacement_valeur
+
+
+#############################################
+# Link the executable 03-03-Remplacement_valeur
+
+build 03-03-Remplacement_valeur: CXX_EXECUTABLE_LINKER__03-03-Remplacement_valeur_Debug CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/03-03-Remplacement_valeur.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-03-Remplacement_valeur
+  TARGET_PDB = 03-03-Remplacement_valeur.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-04-Span_croissant
+
+
+#############################################
+# Order-only phony target for 03-04-Span_croissant
+
+build cmake_object_order_depends_target_03-04-Span_croissant: phony || CMakeFiles/03-04-Span_croissant.dir
+
+build CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux/03-04-Span_croissant.cpp.o: CXX_COMPILER__03-04-Span_croissant_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-04-Span_croissant.cpp || cmake_object_order_depends_target_03-04-Span_croissant
+  DEP_FILE = CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux/03-04-Span_croissant.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03-04-Span_croissant.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-04-Span_croissant
+
+
+#############################################
+# Link the executable 03-04-Span_croissant
+
+build 03-04-Span_croissant: CXX_EXECUTABLE_LINKER__03-04-Span_croissant_Debug CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux/03-04-Span_croissant.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/03-04-Span_croissant.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-04-Span_croissant
+  TARGET_PDB = 03-04-Span_croissant.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-05-Ensemble
+
+
+#############################################
+# Order-only phony target for 03-05-Ensemble
+
+build cmake_object_order_depends_target_03-05-Ensemble: phony || CMakeFiles/03-05-Ensemble.dir
+
+build CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux/03-05-Ensemble.cpp.o: CXX_COMPILER__03-05-Ensemble_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-05-Ensemble.cpp || cmake_object_order_depends_target_03-05-Ensemble
+  DEP_FILE = CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux/03-05-Ensemble.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03-05-Ensemble.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-05-Ensemble
+
+
+#############################################
+# Link the executable 03-05-Ensemble
+
+build 03-05-Ensemble: CXX_EXECUTABLE_LINKER__03-05-Ensemble_Debug CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux/03-05-Ensemble.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/03-05-Ensemble.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-05-Ensemble
+  TARGET_PDB = 03-05-Ensemble.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03-06-Ensemble_trie
+
+
+#############################################
+# Order-only phony target for 03-06-Ensemble_trie
+
+build cmake_object_order_depends_target_03-06-Ensemble_trie: phony || CMakeFiles/03-06-Ensemble_trie.dir
+
+build CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp.o: CXX_COMPILER__03-06-Ensemble_trie_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp || cmake_object_order_depends_target_03-06-Ensemble_trie
+  DEP_FILE = CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/03-06-Ensemble_trie.dir
+  OBJECT_FILE_DIR = CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03-06-Ensemble_trie
+
+
+#############################################
+# Link the executable 03-06-Ensemble_trie
+
+build 03-06-Ensemble_trie: CXX_EXECUTABLE_LINKER__03-06-Ensemble_trie_Debug CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/03-06-Ensemble_trie.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 03-06-Ensemble_trie
+  TARGET_PDB = 03-06-Ensemble_trie.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04-01-Matrice_vecteur
+
+
+#############################################
+# Order-only phony target for 04-01-Matrice_vecteur
+
+build cmake_object_order_depends_target_04-01-Matrice_vecteur: phony || CMakeFiles/04-01-Matrice_vecteur.dir
+
+build CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp.o: CXX_COMPILER__04-01-Matrice_vecteur_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp || cmake_object_order_depends_target_04-01-Matrice_vecteur
+  DEP_FILE = CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04-01-Matrice_vecteur.dir
+  OBJECT_FILE_DIR = CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-01-Matrice_vecteur
+
+
+#############################################
+# Link the executable 04-01-Matrice_vecteur
+
+build 04-01-Matrice_vecteur: CXX_EXECUTABLE_LINKER__04-01-Matrice_vecteur_Debug CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/04-01-Matrice_vecteur.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04-01-Matrice_vecteur
+  TARGET_PDB = 04-01-Matrice_vecteur.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 04-02-Tableau_2d_caractere
+
+
+#############################################
+# Order-only phony target for 04-02-Tableau_2d_caractere
+
+build cmake_object_order_depends_target_04-02-Tableau_2d_caractere: phony || CMakeFiles/04-02-Tableau_2d_caractere.dir
+
+build CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp.o: CXX_COMPILER__04-02-Tableau_2d_caractere_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp || cmake_object_order_depends_target_04-02-Tableau_2d_caractere
+  DEP_FILE = CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/04-02-Tableau_2d_caractere.dir
+  OBJECT_FILE_DIR = CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04-02-Tableau_2d_caractere
+
+
+#############################################
+# Link the executable 04-02-Tableau_2d_caractere
+
+build 04-02-Tableau_2d_caractere: CXX_EXECUTABLE_LINKER__04-02-Tableau_2d_caractere_Debug CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/04-02-Tableau_2d_caractere.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 04-02-Tableau_2d_caractere
+  TARGET_PDB = 04-02-Tableau_2d_caractere.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -731,7 +979,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug
 
-build all: phony 01-04-Date_Personne 01-05-est_bissextile 01-06-Nombre_jours_entre_2_dates 03-03-Deplacer_point 03-04-Chiffre_en_toute_lettre 03-05-Coordonnees_GPS 03-01-Milieu-chaine-caractere 03-02-Chiffres_romains 03-03-Analyse_nombre_entier 03-04-Nom_acronyme 03-05-Palindrome 04-02-Compter_occurences 01-06-Calcul_vectoriel 02-07-Rendre_unique 03-07-Recherche_dichotomique 01-07-Stack 01-08-Jour 02-03-To_string 02-04-Rotate_right 02-05-Supprimer_elements_centraux 02-06-Supprimer_valeur
+build all: phony 01-04-Date_Personne 01-05-est_bissextile 01-06-Nombre_jours_entre_2_dates 03-03-Deplacer_point 03-04-Chiffre_en_toute_lettre 03-05-Coordonnees_GPS 03-01-Milieu-chaine-caractere 03-02-Chiffres_romains 03-03-Analyse_nombre_entier 03-04-Nom_acronyme 03-05-Palindrome 04-02-Compter_occurences 01-06-Calcul_vectoriel 02-07-Rendre_unique 03-07-Recherche_dichotomique 01-07-Stack 01-08-Jour 02-03-To_string 02-04-Rotate_right 02-05-Supprimer_elements_centraux 02-06-Supprimer_valeur 02-08-Moyenne_notes 03-02-To_string 03-03-Remplacement_valeur 03-04-Span_croissant 03-05-Ensemble 03-06-Ensemble_trie 04-01-Matrice_vecteur 04-02-Tableau_2d_caractere
 
 # =============================================================================
 # Built-in targets
