@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug/
+cmake_ninja_workdir = E$:/HEIG_Git/PRG1_Recueil_Exercices/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target 01-04-Date_Personne
 
@@ -49,11 +49,11 @@ cmake_ninja_workdir = /home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-bu
 
 build cmake_object_order_depends_target_01-04-Date_Personne: phony || CMakeFiles/01-04-Date_Personne.dir
 
-build CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp.o: CXX_COMPILER__01-04-Date_Personne_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp || cmake_object_order_depends_target_01-04-Date_Personne
-  DEP_FILE = CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp.o.d
+build CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp.obj: CXX_COMPILER__01-04-Date_Personne_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp || cmake_object_order_depends_target_01-04-Date_Personne
+  DEP_FILE = CMakeFiles\01-04-Date_Personne.dir\Exercices\07-Structure_Enum\01-04-Date_Personne.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/01-04-Date_Personne.dir
-  OBJECT_FILE_DIR = CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum
+  OBJECT_DIR = CMakeFiles\01-04-Date_Personne.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-04-Date_Personne.dir\Exercices\07-Structure_Enum
 
 
 # =============================================================================
@@ -61,15 +61,17 @@ build CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum/01-04-Date_
 
 
 #############################################
-# Link the executable 01-04-Date_Personne
+# Link the executable 01-04-Date_Personne.exe
 
-build 01-04-Date_Personne: CXX_EXECUTABLE_LINKER__01-04-Date_Personne_Debug CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp.o
+build 01-04-Date_Personne.exe: CXX_EXECUTABLE_LINKER__01-04-Date_Personne_Debug CMakeFiles/01-04-Date_Personne.dir/Exercices/07-Structure_Enum/01-04-Date_Personne.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/01-04-Date_Personne.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 01-04-Date_Personne
-  TARGET_PDB = 01-04-Date_Personne.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-04-Date_Personne.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-04-Date_Personne.exe
+  TARGET_IMPLIB = lib01-04-Date_Personne.dll.a
+  TARGET_PDB = 01-04-Date_Personne.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 01-05-est_bissextile
@@ -80,11 +82,11 @@ build 01-04-Date_Personne: CXX_EXECUTABLE_LINKER__01-04-Date_Personne_Debug CMak
 
 build cmake_object_order_depends_target_01-05-est_bissextile: phony || CMakeFiles/01-05-est_bissextile.dir
 
-build CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp.o: CXX_COMPILER__01-05-est_bissextile_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp || cmake_object_order_depends_target_01-05-est_bissextile
-  DEP_FILE = CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp.o.d
+build CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp.obj: CXX_COMPILER__01-05-est_bissextile_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp || cmake_object_order_depends_target_01-05-est_bissextile
+  DEP_FILE = CMakeFiles\01-05-est_bissextile.dir\Exercices\07-Structure_Enum\01-05-est_bissextile.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/01-05-est_bissextile.dir
-  OBJECT_FILE_DIR = CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum
+  OBJECT_DIR = CMakeFiles\01-05-est_bissextile.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-05-est_bissextile.dir\Exercices\07-Structure_Enum
 
 
 # =============================================================================
@@ -92,15 +94,17 @@ build CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum/01-05-est_
 
 
 #############################################
-# Link the executable 01-05-est_bissextile
+# Link the executable 01-05-est_bissextile.exe
 
-build 01-05-est_bissextile: CXX_EXECUTABLE_LINKER__01-05-est_bissextile_Debug CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp.o
+build 01-05-est_bissextile.exe: CXX_EXECUTABLE_LINKER__01-05-est_bissextile_Debug CMakeFiles/01-05-est_bissextile.dir/Exercices/07-Structure_Enum/01-05-est_bissextile.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/01-05-est_bissextile.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 01-05-est_bissextile
-  TARGET_PDB = 01-05-est_bissextile.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-05-est_bissextile.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-05-est_bissextile.exe
+  TARGET_IMPLIB = lib01-05-est_bissextile.dll.a
+  TARGET_PDB = 01-05-est_bissextile.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 01-06-Nombre_jours_entre_2_dates
@@ -111,11 +115,11 @@ build 01-05-est_bissextile: CXX_EXECUTABLE_LINKER__01-05-est_bissextile_Debug CM
 
 build cmake_object_order_depends_target_01-06-Nombre_jours_entre_2_dates: phony || CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir
 
-build CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp.o: CXX_COMPILER__01-06-Nombre_jours_entre_2_dates_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp || cmake_object_order_depends_target_01-06-Nombre_jours_entre_2_dates
-  DEP_FILE = CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp.o.d
+build CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp.obj: CXX_COMPILER__01-06-Nombre_jours_entre_2_dates_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp || cmake_object_order_depends_target_01-06-Nombre_jours_entre_2_dates
+  DEP_FILE = CMakeFiles\01-06-Nombre_jours_entre_2_dates.dir\Exercices\07-Structure_Enum\01-06-Nombre_jours_entre_2_dates.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir
-  OBJECT_FILE_DIR = CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum
+  OBJECT_DIR = CMakeFiles\01-06-Nombre_jours_entre_2_dates.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-06-Nombre_jours_entre_2_dates.dir\Exercices\07-Structure_Enum
 
 
 # =============================================================================
@@ -123,15 +127,17 @@ build CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enu
 
 
 #############################################
-# Link the executable 01-06-Nombre_jours_entre_2_dates
+# Link the executable 01-06-Nombre_jours_entre_2_dates.exe
 
-build 01-06-Nombre_jours_entre_2_dates: CXX_EXECUTABLE_LINKER__01-06-Nombre_jours_entre_2_dates_Debug CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp.o
+build 01-06-Nombre_jours_entre_2_dates.exe: CXX_EXECUTABLE_LINKER__01-06-Nombre_jours_entre_2_dates_Debug CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir/Exercices/07-Structure_Enum/01-06-Nombre_jours_entre_2_dates.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/01-06-Nombre_jours_entre_2_dates.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 01-06-Nombre_jours_entre_2_dates
-  TARGET_PDB = 01-06-Nombre_jours_entre_2_dates.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-06-Nombre_jours_entre_2_dates.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-06-Nombre_jours_entre_2_dates.exe
+  TARGET_IMPLIB = lib01-06-Nombre_jours_entre_2_dates.dll.a
+  TARGET_PDB = 01-06-Nombre_jours_entre_2_dates.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-03-Deplacer_point
@@ -142,11 +148,11 @@ build 01-06-Nombre_jours_entre_2_dates: CXX_EXECUTABLE_LINKER__01-06-Nombre_jour
 
 build cmake_object_order_depends_target_03-03-Deplacer_point: phony || CMakeFiles/03-03-Deplacer_point.dir
 
-build CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp.o: CXX_COMPILER__03-03-Deplacer_point_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp || cmake_object_order_depends_target_03-03-Deplacer_point
-  DEP_FILE = CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp.o.d
+build CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp.obj: CXX_COMPILER__03-03-Deplacer_point_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp || cmake_object_order_depends_target_03-03-Deplacer_point
+  DEP_FILE = CMakeFiles\03-03-Deplacer_point.dir\Exercices\07-Structure_Enum\03-03-Deplacer_point.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-03-Deplacer_point.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum
+  OBJECT_DIR = CMakeFiles\03-03-Deplacer_point.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-03-Deplacer_point.dir\Exercices\07-Structure_Enum
 
 
 # =============================================================================
@@ -154,15 +160,17 @@ build CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum/03-03-Depl
 
 
 #############################################
-# Link the executable 03-03-Deplacer_point
+# Link the executable 03-03-Deplacer_point.exe
 
-build 03-03-Deplacer_point: CXX_EXECUTABLE_LINKER__03-03-Deplacer_point_Debug CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp.o
+build 03-03-Deplacer_point.exe: CXX_EXECUTABLE_LINKER__03-03-Deplacer_point_Debug CMakeFiles/03-03-Deplacer_point.dir/Exercices/07-Structure_Enum/03-03-Deplacer_point.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-03-Deplacer_point.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-03-Deplacer_point
-  TARGET_PDB = 03-03-Deplacer_point.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-03-Deplacer_point.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-03-Deplacer_point.exe
+  TARGET_IMPLIB = lib03-03-Deplacer_point.dll.a
+  TARGET_PDB = 03-03-Deplacer_point.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-04-Chiffre_en_toute_lettre
@@ -173,11 +181,11 @@ build 03-03-Deplacer_point: CXX_EXECUTABLE_LINKER__03-03-Deplacer_point_Debug CM
 
 build cmake_object_order_depends_target_03-04-Chiffre_en_toute_lettre: phony || CMakeFiles/03-04-Chiffre_en_toute_lettre.dir
 
-build CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp.o: CXX_COMPILER__03-04-Chiffre_en_toute_lettre_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp || cmake_object_order_depends_target_03-04-Chiffre_en_toute_lettre
-  DEP_FILE = CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp.o.d
+build CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp.obj: CXX_COMPILER__03-04-Chiffre_en_toute_lettre_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp || cmake_object_order_depends_target_03-04-Chiffre_en_toute_lettre
+  DEP_FILE = CMakeFiles\03-04-Chiffre_en_toute_lettre.dir\Exercices\07-Structure_Enum\03-04-Chiffre_en_toute_lettre.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-04-Chiffre_en_toute_lettre.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum
+  OBJECT_DIR = CMakeFiles\03-04-Chiffre_en_toute_lettre.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-04-Chiffre_en_toute_lettre.dir\Exercices\07-Structure_Enum
 
 
 # =============================================================================
@@ -185,15 +193,17 @@ build CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum/0
 
 
 #############################################
-# Link the executable 03-04-Chiffre_en_toute_lettre
+# Link the executable 03-04-Chiffre_en_toute_lettre.exe
 
-build 03-04-Chiffre_en_toute_lettre: CXX_EXECUTABLE_LINKER__03-04-Chiffre_en_toute_lettre_Debug CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp.o
+build 03-04-Chiffre_en_toute_lettre.exe: CXX_EXECUTABLE_LINKER__03-04-Chiffre_en_toute_lettre_Debug CMakeFiles/03-04-Chiffre_en_toute_lettre.dir/Exercices/07-Structure_Enum/03-04-Chiffre_en_toute_lettre.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-04-Chiffre_en_toute_lettre.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-04-Chiffre_en_toute_lettre
-  TARGET_PDB = 03-04-Chiffre_en_toute_lettre.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-04-Chiffre_en_toute_lettre.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-04-Chiffre_en_toute_lettre.exe
+  TARGET_IMPLIB = lib03-04-Chiffre_en_toute_lettre.dll.a
+  TARGET_PDB = 03-04-Chiffre_en_toute_lettre.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-05-Coordonnees_GPS
@@ -204,11 +214,11 @@ build 03-04-Chiffre_en_toute_lettre: CXX_EXECUTABLE_LINKER__03-04-Chiffre_en_tou
 
 build cmake_object_order_depends_target_03-05-Coordonnees_GPS: phony || CMakeFiles/03-05-Coordonnees_GPS.dir
 
-build CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp.o: CXX_COMPILER__03-05-Coordonnees_GPS_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp || cmake_object_order_depends_target_03-05-Coordonnees_GPS
-  DEP_FILE = CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp.o.d
+build CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp.obj: CXX_COMPILER__03-05-Coordonnees_GPS_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp || cmake_object_order_depends_target_03-05-Coordonnees_GPS
+  DEP_FILE = CMakeFiles\03-05-Coordonnees_GPS.dir\Exercices\07-Structure_Enum\03-05-Coordonnees_GPS.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-05-Coordonnees_GPS.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum
+  OBJECT_DIR = CMakeFiles\03-05-Coordonnees_GPS.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-05-Coordonnees_GPS.dir\Exercices\07-Structure_Enum
 
 
 # =============================================================================
@@ -216,15 +226,17 @@ build CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum/03-05-Coo
 
 
 #############################################
-# Link the executable 03-05-Coordonnees_GPS
+# Link the executable 03-05-Coordonnees_GPS.exe
 
-build 03-05-Coordonnees_GPS: CXX_EXECUTABLE_LINKER__03-05-Coordonnees_GPS_Debug CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp.o
+build 03-05-Coordonnees_GPS.exe: CXX_EXECUTABLE_LINKER__03-05-Coordonnees_GPS_Debug CMakeFiles/03-05-Coordonnees_GPS.dir/Exercices/07-Structure_Enum/03-05-Coordonnees_GPS.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-05-Coordonnees_GPS.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-05-Coordonnees_GPS
-  TARGET_PDB = 03-05-Coordonnees_GPS.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-05-Coordonnees_GPS.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-05-Coordonnees_GPS.exe
+  TARGET_IMPLIB = lib03-05-Coordonnees_GPS.dll.a
+  TARGET_PDB = 03-05-Coordonnees_GPS.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-01-Milieu-chaine-caractere
@@ -235,11 +247,11 @@ build 03-05-Coordonnees_GPS: CXX_EXECUTABLE_LINKER__03-05-Coordonnees_GPS_Debug 
 
 build cmake_object_order_depends_target_03-01-Milieu-chaine-caractere: phony || CMakeFiles/03-01-Milieu-chaine-caractere.dir
 
-build CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp.o: CXX_COMPILER__03-01-Milieu-chaine-caractere_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp || cmake_object_order_depends_target_03-01-Milieu-chaine-caractere
-  DEP_FILE = CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp.o.d
+build CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp.obj: CXX_COMPILER__03-01-Milieu-chaine-caractere_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp || cmake_object_order_depends_target_03-01-Milieu-chaine-caractere
+  DEP_FILE = CMakeFiles\03-01-Milieu-chaine-caractere.dir\Exercices\08-Chaines-de-caracteres\03-01-Milieu-chaine-caractere.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-01-Milieu-chaine-caractere.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres
+  OBJECT_DIR = CMakeFiles\03-01-Milieu-chaine-caractere.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-01-Milieu-chaine-caractere.dir\Exercices\08-Chaines-de-caracteres
 
 
 # =============================================================================
@@ -247,15 +259,17 @@ build CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-carac
 
 
 #############################################
-# Link the executable 03-01-Milieu-chaine-caractere
+# Link the executable 03-01-Milieu-chaine-caractere.exe
 
-build 03-01-Milieu-chaine-caractere: CXX_EXECUTABLE_LINKER__03-01-Milieu-chaine-caractere_Debug CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp.o
+build 03-01-Milieu-chaine-caractere.exe: CXX_EXECUTABLE_LINKER__03-01-Milieu-chaine-caractere_Debug CMakeFiles/03-01-Milieu-chaine-caractere.dir/Exercices/08-Chaines-de-caracteres/03-01-Milieu-chaine-caractere.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-01-Milieu-chaine-caractere.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-01-Milieu-chaine-caractere
-  TARGET_PDB = 03-01-Milieu-chaine-caractere.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-01-Milieu-chaine-caractere.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-01-Milieu-chaine-caractere.exe
+  TARGET_IMPLIB = lib03-01-Milieu-chaine-caractere.dll.a
+  TARGET_PDB = 03-01-Milieu-chaine-caractere.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-02-Chiffres_romains
@@ -266,11 +280,11 @@ build 03-01-Milieu-chaine-caractere: CXX_EXECUTABLE_LINKER__03-01-Milieu-chaine-
 
 build cmake_object_order_depends_target_03-02-Chiffres_romains: phony || CMakeFiles/03-02-Chiffres_romains.dir
 
-build CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp.o: CXX_COMPILER__03-02-Chiffres_romains_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp || cmake_object_order_depends_target_03-02-Chiffres_romains
-  DEP_FILE = CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp.o.d
+build CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp.obj: CXX_COMPILER__03-02-Chiffres_romains_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp || cmake_object_order_depends_target_03-02-Chiffres_romains
+  DEP_FILE = CMakeFiles\03-02-Chiffres_romains.dir\Exercices\08-Chaines-de-caracteres\03-02-Chiffres_romains.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-02-Chiffres_romains.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres
+  OBJECT_DIR = CMakeFiles\03-02-Chiffres_romains.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-02-Chiffres_romains.dir\Exercices\08-Chaines-de-caracteres
 
 
 # =============================================================================
@@ -278,15 +292,17 @@ build CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres/0
 
 
 #############################################
-# Link the executable 03-02-Chiffres_romains
+# Link the executable 03-02-Chiffres_romains.exe
 
-build 03-02-Chiffres_romains: CXX_EXECUTABLE_LINKER__03-02-Chiffres_romains_Debug CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp.o
+build 03-02-Chiffres_romains.exe: CXX_EXECUTABLE_LINKER__03-02-Chiffres_romains_Debug CMakeFiles/03-02-Chiffres_romains.dir/Exercices/08-Chaines-de-caracteres/03-02-Chiffres_romains.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-02-Chiffres_romains.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-02-Chiffres_romains
-  TARGET_PDB = 03-02-Chiffres_romains.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-02-Chiffres_romains.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-02-Chiffres_romains.exe
+  TARGET_IMPLIB = lib03-02-Chiffres_romains.dll.a
+  TARGET_PDB = 03-02-Chiffres_romains.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-03-Analyse_nombre_entier
@@ -297,11 +313,11 @@ build 03-02-Chiffres_romains: CXX_EXECUTABLE_LINKER__03-02-Chiffres_romains_Debu
 
 build cmake_object_order_depends_target_03-03-Analyse_nombre_entier: phony || CMakeFiles/03-03-Analyse_nombre_entier.dir
 
-build CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp.o: CXX_COMPILER__03-03-Analyse_nombre_entier_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp || cmake_object_order_depends_target_03-03-Analyse_nombre_entier
-  DEP_FILE = CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp.o.d
+build CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp.obj: CXX_COMPILER__03-03-Analyse_nombre_entier_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp || cmake_object_order_depends_target_03-03-Analyse_nombre_entier
+  DEP_FILE = CMakeFiles\03-03-Analyse_nombre_entier.dir\Exercices\08-Chaines-de-caracteres\03-03-Analyse_nombre_entier.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-03-Analyse_nombre_entier.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres
+  OBJECT_DIR = CMakeFiles\03-03-Analyse_nombre_entier.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-03-Analyse_nombre_entier.dir\Exercices\08-Chaines-de-caracteres
 
 
 # =============================================================================
@@ -309,15 +325,17 @@ build CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracte
 
 
 #############################################
-# Link the executable 03-03-Analyse_nombre_entier
+# Link the executable 03-03-Analyse_nombre_entier.exe
 
-build 03-03-Analyse_nombre_entier: CXX_EXECUTABLE_LINKER__03-03-Analyse_nombre_entier_Debug CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp.o
+build 03-03-Analyse_nombre_entier.exe: CXX_EXECUTABLE_LINKER__03-03-Analyse_nombre_entier_Debug CMakeFiles/03-03-Analyse_nombre_entier.dir/Exercices/08-Chaines-de-caracteres/03-03-Analyse_nombre_entier.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-03-Analyse_nombre_entier.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-03-Analyse_nombre_entier
-  TARGET_PDB = 03-03-Analyse_nombre_entier.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-03-Analyse_nombre_entier.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-03-Analyse_nombre_entier.exe
+  TARGET_IMPLIB = lib03-03-Analyse_nombre_entier.dll.a
+  TARGET_PDB = 03-03-Analyse_nombre_entier.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-04-Nom_acronyme
@@ -328,11 +346,11 @@ build 03-03-Analyse_nombre_entier: CXX_EXECUTABLE_LINKER__03-03-Analyse_nombre_e
 
 build cmake_object_order_depends_target_03-04-Nom_acronyme: phony || CMakeFiles/03-04-Nom_acronyme.dir
 
-build CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp.o: CXX_COMPILER__03-04-Nom_acronyme_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp || cmake_object_order_depends_target_03-04-Nom_acronyme
-  DEP_FILE = CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp.o.d
+build CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp.obj: CXX_COMPILER__03-04-Nom_acronyme_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp || cmake_object_order_depends_target_03-04-Nom_acronyme
+  DEP_FILE = CMakeFiles\03-04-Nom_acronyme.dir\Exercices\08-Chaines-de-caracteres\03-04-Nom_acronyme.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-04-Nom_acronyme.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres
+  OBJECT_DIR = CMakeFiles\03-04-Nom_acronyme.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-04-Nom_acronyme.dir\Exercices\08-Chaines-de-caracteres
 
 
 # =============================================================================
@@ -340,15 +358,17 @@ build CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres/03-04
 
 
 #############################################
-# Link the executable 03-04-Nom_acronyme
+# Link the executable 03-04-Nom_acronyme.exe
 
-build 03-04-Nom_acronyme: CXX_EXECUTABLE_LINKER__03-04-Nom_acronyme_Debug CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp.o
+build 03-04-Nom_acronyme.exe: CXX_EXECUTABLE_LINKER__03-04-Nom_acronyme_Debug CMakeFiles/03-04-Nom_acronyme.dir/Exercices/08-Chaines-de-caracteres/03-04-Nom_acronyme.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-04-Nom_acronyme.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-04-Nom_acronyme
-  TARGET_PDB = 03-04-Nom_acronyme.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-04-Nom_acronyme.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-04-Nom_acronyme.exe
+  TARGET_IMPLIB = lib03-04-Nom_acronyme.dll.a
+  TARGET_PDB = 03-04-Nom_acronyme.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-05-Palindrome
@@ -359,11 +379,11 @@ build 03-04-Nom_acronyme: CXX_EXECUTABLE_LINKER__03-04-Nom_acronyme_Debug CMakeF
 
 build cmake_object_order_depends_target_03-05-Palindrome: phony || CMakeFiles/03-05-Palindrome.dir
 
-build CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp.o: CXX_COMPILER__03-05-Palindrome_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp || cmake_object_order_depends_target_03-05-Palindrome
-  DEP_FILE = CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp.o.d
+build CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp.obj: CXX_COMPILER__03-05-Palindrome_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp || cmake_object_order_depends_target_03-05-Palindrome
+  DEP_FILE = CMakeFiles\03-05-Palindrome.dir\Exercices\08-Chaines-de-caracteres\03-05-Palindrome.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-05-Palindrome.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres
+  OBJECT_DIR = CMakeFiles\03-05-Palindrome.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-05-Palindrome.dir\Exercices\08-Chaines-de-caracteres
 
 
 # =============================================================================
@@ -371,15 +391,17 @@ build CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres/03-05-P
 
 
 #############################################
-# Link the executable 03-05-Palindrome
+# Link the executable 03-05-Palindrome.exe
 
-build 03-05-Palindrome: CXX_EXECUTABLE_LINKER__03-05-Palindrome_Debug CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp.o
+build 03-05-Palindrome.exe: CXX_EXECUTABLE_LINKER__03-05-Palindrome_Debug CMakeFiles/03-05-Palindrome.dir/Exercices/08-Chaines-de-caracteres/03-05-Palindrome.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-05-Palindrome.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-05-Palindrome
-  TARGET_PDB = 03-05-Palindrome.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-05-Palindrome.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-05-Palindrome.exe
+  TARGET_IMPLIB = lib03-05-Palindrome.dll.a
+  TARGET_PDB = 03-05-Palindrome.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 04-02-Compter_occurences
@@ -390,11 +412,11 @@ build 03-05-Palindrome: CXX_EXECUTABLE_LINKER__03-05-Palindrome_Debug CMakeFiles
 
 build cmake_object_order_depends_target_04-02-Compter_occurences: phony || CMakeFiles/04-02-Compter_occurences.dir
 
-build CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp.o: CXX_COMPILER__04-02-Compter_occurences_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp || cmake_object_order_depends_target_04-02-Compter_occurences
-  DEP_FILE = CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp.o.d
+build CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp.obj: CXX_COMPILER__04-02-Compter_occurences_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp || cmake_object_order_depends_target_04-02-Compter_occurences
+  DEP_FILE = CMakeFiles\04-02-Compter_occurences.dir\Exercices\08-Chaines-de-caracteres\04-02-Compter_occurences.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/04-02-Compter_occurences.dir
-  OBJECT_FILE_DIR = CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres
+  OBJECT_DIR = CMakeFiles\04-02-Compter_occurences.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-02-Compter_occurences.dir\Exercices\08-Chaines-de-caracteres
 
 
 # =============================================================================
@@ -402,15 +424,17 @@ build CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres
 
 
 #############################################
-# Link the executable 04-02-Compter_occurences
+# Link the executable 04-02-Compter_occurences.exe
 
-build 04-02-Compter_occurences: CXX_EXECUTABLE_LINKER__04-02-Compter_occurences_Debug CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp.o
+build 04-02-Compter_occurences.exe: CXX_EXECUTABLE_LINKER__04-02-Compter_occurences_Debug CMakeFiles/04-02-Compter_occurences.dir/Exercices/08-Chaines-de-caracteres/04-02-Compter_occurences.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/04-02-Compter_occurences.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 04-02-Compter_occurences
-  TARGET_PDB = 04-02-Compter_occurences.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-02-Compter_occurences.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-02-Compter_occurences.exe
+  TARGET_IMPLIB = lib04-02-Compter_occurences.dll.a
+  TARGET_PDB = 04-02-Compter_occurences.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 01-06-Calcul_vectoriel
@@ -421,17 +445,17 @@ build 04-02-Compter_occurences: CXX_EXECUTABLE_LINKER__04-02-Compter_occurences_
 
 build cmake_object_order_depends_target_01-06-Calcul_vectoriel: phony || CMakeFiles/01-06-Calcul_vectoriel.dir
 
-build CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp.o: CXX_COMPILER__01-06-Calcul_vectoriel_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp || cmake_object_order_depends_target_01-06-Calcul_vectoriel
-  DEP_FILE = CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp.o.d
+build CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp.obj: CXX_COMPILER__01-06-Calcul_vectoriel_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp || cmake_object_order_depends_target_01-06-Calcul_vectoriel
+  DEP_FILE = CMakeFiles\01-06-Calcul_vectoriel.dir\Exercices\09-Tableaux\01-06-Calcul_vectoriel.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir
-  OBJECT_FILE_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\01-06-Calcul_vectoriel.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-06-Calcul_vectoriel.dir\Exercices\09-Tableaux
 
-build CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o: CXX_COMPILER__01-06-Calcul_vectoriel_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-08-Jour.cpp || cmake_object_order_depends_target_01-06-Calcul_vectoriel
-  DEP_FILE = CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o.d
+build CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-08-Jour.cpp.obj: CXX_COMPILER__01-06-Calcul_vectoriel_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-08-Jour.cpp || cmake_object_order_depends_target_01-06-Calcul_vectoriel
+  DEP_FILE = CMakeFiles\01-06-Calcul_vectoriel.dir\Exercices\09-Tableaux\01-08-Jour.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir
-  OBJECT_FILE_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\01-06-Calcul_vectoriel.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-06-Calcul_vectoriel.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -439,15 +463,17 @@ build CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-08-Jour.cpp
 
 
 #############################################
-# Link the executable 01-06-Calcul_vectoriel
+# Link the executable 01-06-Calcul_vectoriel.exe
 
-build 01-06-Calcul_vectoriel: CXX_EXECUTABLE_LINKER__01-06-Calcul_vectoriel_Debug CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp.o CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o
+build 01-06-Calcul_vectoriel.exe: CXX_EXECUTABLE_LINKER__01-06-Calcul_vectoriel_Debug CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-06-Calcul_vectoriel.cpp.obj CMakeFiles/01-06-Calcul_vectoriel.dir/Exercices/09-Tableaux/01-08-Jour.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/01-06-Calcul_vectoriel.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 01-06-Calcul_vectoriel
-  TARGET_PDB = 01-06-Calcul_vectoriel.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-06-Calcul_vectoriel.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-06-Calcul_vectoriel.exe
+  TARGET_IMPLIB = lib01-06-Calcul_vectoriel.dll.a
+  TARGET_PDB = 01-06-Calcul_vectoriel.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 02-07-Rendre_unique
@@ -458,11 +484,11 @@ build 01-06-Calcul_vectoriel: CXX_EXECUTABLE_LINKER__01-06-Calcul_vectoriel_Debu
 
 build cmake_object_order_depends_target_02-07-Rendre_unique: phony || CMakeFiles/02-07-Rendre_unique.dir
 
-build CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux/02-07-Rendre_unique.cpp.o: CXX_COMPILER__02-07-Rendre_unique_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-07-Rendre_unique.cpp || cmake_object_order_depends_target_02-07-Rendre_unique
-  DEP_FILE = CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux/02-07-Rendre_unique.cpp.o.d
+build CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux/02-07-Rendre_unique.cpp.obj: CXX_COMPILER__02-07-Rendre_unique_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-07-Rendre_unique.cpp || cmake_object_order_depends_target_02-07-Rendre_unique
+  DEP_FILE = CMakeFiles\02-07-Rendre_unique.dir\Exercices\09-Tableaux\02-07-Rendre_unique.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/02-07-Rendre_unique.dir
-  OBJECT_FILE_DIR = CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\02-07-Rendre_unique.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-07-Rendre_unique.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -470,15 +496,17 @@ build CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux/02-07-Rendre_uniq
 
 
 #############################################
-# Link the executable 02-07-Rendre_unique
+# Link the executable 02-07-Rendre_unique.exe
 
-build 02-07-Rendre_unique: CXX_EXECUTABLE_LINKER__02-07-Rendre_unique_Debug CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux/02-07-Rendre_unique.cpp.o
+build 02-07-Rendre_unique.exe: CXX_EXECUTABLE_LINKER__02-07-Rendre_unique_Debug CMakeFiles/02-07-Rendre_unique.dir/Exercices/09-Tableaux/02-07-Rendre_unique.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/02-07-Rendre_unique.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 02-07-Rendre_unique
-  TARGET_PDB = 02-07-Rendre_unique.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-07-Rendre_unique.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-07-Rendre_unique.exe
+  TARGET_IMPLIB = lib02-07-Rendre_unique.dll.a
+  TARGET_PDB = 02-07-Rendre_unique.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-07-Recherche_dichotomique
@@ -489,11 +517,11 @@ build 02-07-Rendre_unique: CXX_EXECUTABLE_LINKER__02-07-Rendre_unique_Debug CMak
 
 build cmake_object_order_depends_target_03-07-Recherche_dichotomique: phony || CMakeFiles/03-07-Recherche_dichotomique.dir
 
-build CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp.o: CXX_COMPILER__03-07-Recherche_dichotomique_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp || cmake_object_order_depends_target_03-07-Recherche_dichotomique
-  DEP_FILE = CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp.o.d
+build CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp.obj: CXX_COMPILER__03-07-Recherche_dichotomique_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp || cmake_object_order_depends_target_03-07-Recherche_dichotomique
+  DEP_FILE = CMakeFiles\03-07-Recherche_dichotomique.dir\Exercices\09-Tableaux\03-07-Recherche_dichotomique.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-07-Recherche_dichotomique.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\03-07-Recherche_dichotomique.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-07-Recherche_dichotomique.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -501,15 +529,17 @@ build CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux/03-07-Re
 
 
 #############################################
-# Link the executable 03-07-Recherche_dichotomique
+# Link the executable 03-07-Recherche_dichotomique.exe
 
-build 03-07-Recherche_dichotomique: CXX_EXECUTABLE_LINKER__03-07-Recherche_dichotomique_Debug CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp.o
+build 03-07-Recherche_dichotomique.exe: CXX_EXECUTABLE_LINKER__03-07-Recherche_dichotomique_Debug CMakeFiles/03-07-Recherche_dichotomique.dir/Exercices/09-Tableaux/03-07-Recherche_dichotomique.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-07-Recherche_dichotomique.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-07-Recherche_dichotomique
-  TARGET_PDB = 03-07-Recherche_dichotomique.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-07-Recherche_dichotomique.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-07-Recherche_dichotomique.exe
+  TARGET_IMPLIB = lib03-07-Recherche_dichotomique.dll.a
+  TARGET_PDB = 03-07-Recherche_dichotomique.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 01-07-Stack
@@ -520,11 +550,11 @@ build 03-07-Recherche_dichotomique: CXX_EXECUTABLE_LINKER__03-07-Recherche_dicho
 
 build cmake_object_order_depends_target_01-07-Stack: phony || CMakeFiles/01-07-Stack.dir
 
-build CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux/01-07-Stack.cpp.o: CXX_COMPILER__01-07-Stack_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-07-Stack.cpp || cmake_object_order_depends_target_01-07-Stack
-  DEP_FILE = CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux/01-07-Stack.cpp.o.d
+build CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux/01-07-Stack.cpp.obj: CXX_COMPILER__01-07-Stack_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-07-Stack.cpp || cmake_object_order_depends_target_01-07-Stack
+  DEP_FILE = CMakeFiles\01-07-Stack.dir\Exercices\09-Tableaux\01-07-Stack.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/01-07-Stack.dir
-  OBJECT_FILE_DIR = CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\01-07-Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-07-Stack.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -532,15 +562,17 @@ build CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux/01-07-Stack.cpp.o: CXX_CO
 
 
 #############################################
-# Link the executable 01-07-Stack
+# Link the executable 01-07-Stack.exe
 
-build 01-07-Stack: CXX_EXECUTABLE_LINKER__01-07-Stack_Debug CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux/01-07-Stack.cpp.o
+build 01-07-Stack.exe: CXX_EXECUTABLE_LINKER__01-07-Stack_Debug CMakeFiles/01-07-Stack.dir/Exercices/09-Tableaux/01-07-Stack.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/01-07-Stack.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 01-07-Stack
-  TARGET_PDB = 01-07-Stack.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-07-Stack.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-07-Stack.exe
+  TARGET_IMPLIB = lib01-07-Stack.dll.a
+  TARGET_PDB = 01-07-Stack.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 01-08-Jour
@@ -551,11 +583,11 @@ build 01-07-Stack: CXX_EXECUTABLE_LINKER__01-07-Stack_Debug CMakeFiles/01-07-Sta
 
 build cmake_object_order_depends_target_01-08-Jour: phony || CMakeFiles/01-08-Jour.dir
 
-build CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o: CXX_COMPILER__01-08-Jour_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-08-Jour.cpp || cmake_object_order_depends_target_01-08-Jour
-  DEP_FILE = CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o.d
+build CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux/01-08-Jour.cpp.obj: CXX_COMPILER__01-08-Jour_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/01-08-Jour.cpp || cmake_object_order_depends_target_01-08-Jour
+  DEP_FILE = CMakeFiles\01-08-Jour.dir\Exercices\09-Tableaux\01-08-Jour.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/01-08-Jour.dir
-  OBJECT_FILE_DIR = CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\01-08-Jour.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-08-Jour.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -563,15 +595,17 @@ build CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o: CXX_COMP
 
 
 #############################################
-# Link the executable 01-08-Jour
+# Link the executable 01-08-Jour.exe
 
-build 01-08-Jour: CXX_EXECUTABLE_LINKER__01-08-Jour_Debug CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux/01-08-Jour.cpp.o
+build 01-08-Jour.exe: CXX_EXECUTABLE_LINKER__01-08-Jour_Debug CMakeFiles/01-08-Jour.dir/Exercices/09-Tableaux/01-08-Jour.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/01-08-Jour.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 01-08-Jour
-  TARGET_PDB = 01-08-Jour.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-08-Jour.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-08-Jour.exe
+  TARGET_IMPLIB = lib01-08-Jour.dll.a
+  TARGET_PDB = 01-08-Jour.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 02-03-To_string
@@ -582,11 +616,11 @@ build 01-08-Jour: CXX_EXECUTABLE_LINKER__01-08-Jour_Debug CMakeFiles/01-08-Jour.
 
 build cmake_object_order_depends_target_02-03-To_string: phony || CMakeFiles/02-03-To_string.dir
 
-build CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux/02-03-To_string.cpp.o: CXX_COMPILER__02-03-To_string_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-03-To_string.cpp || cmake_object_order_depends_target_02-03-To_string
-  DEP_FILE = CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux/02-03-To_string.cpp.o.d
+build CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux/02-03-To_string.cpp.obj: CXX_COMPILER__02-03-To_string_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-03-To_string.cpp || cmake_object_order_depends_target_02-03-To_string
+  DEP_FILE = CMakeFiles\02-03-To_string.dir\Exercices\09-Tableaux\02-03-To_string.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/02-03-To_string.dir
-  OBJECT_FILE_DIR = CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\02-03-To_string.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-03-To_string.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -594,15 +628,17 @@ build CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux/02-03-To_string.cpp.o
 
 
 #############################################
-# Link the executable 02-03-To_string
+# Link the executable 02-03-To_string.exe
 
-build 02-03-To_string: CXX_EXECUTABLE_LINKER__02-03-To_string_Debug CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux/02-03-To_string.cpp.o
+build 02-03-To_string.exe: CXX_EXECUTABLE_LINKER__02-03-To_string_Debug CMakeFiles/02-03-To_string.dir/Exercices/09-Tableaux/02-03-To_string.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/02-03-To_string.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 02-03-To_string
-  TARGET_PDB = 02-03-To_string.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-03-To_string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-03-To_string.exe
+  TARGET_IMPLIB = lib02-03-To_string.dll.a
+  TARGET_PDB = 02-03-To_string.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 02-04-Rotate_right
@@ -613,11 +649,11 @@ build 02-03-To_string: CXX_EXECUTABLE_LINKER__02-03-To_string_Debug CMakeFiles/0
 
 build cmake_object_order_depends_target_02-04-Rotate_right: phony || CMakeFiles/02-04-Rotate_right.dir
 
-build CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux/02-04-Rotate_right.cpp.o: CXX_COMPILER__02-04-Rotate_right_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-04-Rotate_right.cpp || cmake_object_order_depends_target_02-04-Rotate_right
-  DEP_FILE = CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux/02-04-Rotate_right.cpp.o.d
+build CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux/02-04-Rotate_right.cpp.obj: CXX_COMPILER__02-04-Rotate_right_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-04-Rotate_right.cpp || cmake_object_order_depends_target_02-04-Rotate_right
+  DEP_FILE = CMakeFiles\02-04-Rotate_right.dir\Exercices\09-Tableaux\02-04-Rotate_right.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/02-04-Rotate_right.dir
-  OBJECT_FILE_DIR = CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\02-04-Rotate_right.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-04-Rotate_right.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -625,15 +661,17 @@ build CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux/02-04-Rotate_right
 
 
 #############################################
-# Link the executable 02-04-Rotate_right
+# Link the executable 02-04-Rotate_right.exe
 
-build 02-04-Rotate_right: CXX_EXECUTABLE_LINKER__02-04-Rotate_right_Debug CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux/02-04-Rotate_right.cpp.o
+build 02-04-Rotate_right.exe: CXX_EXECUTABLE_LINKER__02-04-Rotate_right_Debug CMakeFiles/02-04-Rotate_right.dir/Exercices/09-Tableaux/02-04-Rotate_right.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/02-04-Rotate_right.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 02-04-Rotate_right
-  TARGET_PDB = 02-04-Rotate_right.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-04-Rotate_right.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-04-Rotate_right.exe
+  TARGET_IMPLIB = lib02-04-Rotate_right.dll.a
+  TARGET_PDB = 02-04-Rotate_right.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 02-05-Supprimer_elements_centraux
@@ -644,11 +682,11 @@ build 02-04-Rotate_right: CXX_EXECUTABLE_LINKER__02-04-Rotate_right_Debug CMakeF
 
 build cmake_object_order_depends_target_02-05-Supprimer_elements_centraux: phony || CMakeFiles/02-05-Supprimer_elements_centraux.dir
 
-build CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp.o: CXX_COMPILER__02-05-Supprimer_elements_centraux_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp || cmake_object_order_depends_target_02-05-Supprimer_elements_centraux
-  DEP_FILE = CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp.o.d
+build CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp.obj: CXX_COMPILER__02-05-Supprimer_elements_centraux_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp || cmake_object_order_depends_target_02-05-Supprimer_elements_centraux
+  DEP_FILE = CMakeFiles\02-05-Supprimer_elements_centraux.dir\Exercices\09-Tableaux\02-05-Supprimer_elements_centraux.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/02-05-Supprimer_elements_centraux.dir
-  OBJECT_FILE_DIR = CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\02-05-Supprimer_elements_centraux.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-05-Supprimer_elements_centraux.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -656,15 +694,17 @@ build CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux/02-
 
 
 #############################################
-# Link the executable 02-05-Supprimer_elements_centraux
+# Link the executable 02-05-Supprimer_elements_centraux.exe
 
-build 02-05-Supprimer_elements_centraux: CXX_EXECUTABLE_LINKER__02-05-Supprimer_elements_centraux_Debug CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp.o
+build 02-05-Supprimer_elements_centraux.exe: CXX_EXECUTABLE_LINKER__02-05-Supprimer_elements_centraux_Debug CMakeFiles/02-05-Supprimer_elements_centraux.dir/Exercices/09-Tableaux/02-05-Supprimer_elements_centraux.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/02-05-Supprimer_elements_centraux.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 02-05-Supprimer_elements_centraux
-  TARGET_PDB = 02-05-Supprimer_elements_centraux.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-05-Supprimer_elements_centraux.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-05-Supprimer_elements_centraux.exe
+  TARGET_IMPLIB = lib02-05-Supprimer_elements_centraux.dll.a
+  TARGET_PDB = 02-05-Supprimer_elements_centraux.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 02-06-Supprimer_valeur
@@ -675,11 +715,11 @@ build 02-05-Supprimer_elements_centraux: CXX_EXECUTABLE_LINKER__02-05-Supprimer_
 
 build cmake_object_order_depends_target_02-06-Supprimer_valeur: phony || CMakeFiles/02-06-Supprimer_valeur.dir
 
-build CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp.o: CXX_COMPILER__02-06-Supprimer_valeur_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp || cmake_object_order_depends_target_02-06-Supprimer_valeur
-  DEP_FILE = CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp.o.d
+build CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp.obj: CXX_COMPILER__02-06-Supprimer_valeur_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp || cmake_object_order_depends_target_02-06-Supprimer_valeur
+  DEP_FILE = CMakeFiles\02-06-Supprimer_valeur.dir\Exercices\09-Tableaux\02-06-Supprimer_valeur.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/02-06-Supprimer_valeur.dir
-  OBJECT_FILE_DIR = CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\02-06-Supprimer_valeur.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-06-Supprimer_valeur.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -687,15 +727,17 @@ build CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux/02-06-Supprime
 
 
 #############################################
-# Link the executable 02-06-Supprimer_valeur
+# Link the executable 02-06-Supprimer_valeur.exe
 
-build 02-06-Supprimer_valeur: CXX_EXECUTABLE_LINKER__02-06-Supprimer_valeur_Debug CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp.o
+build 02-06-Supprimer_valeur.exe: CXX_EXECUTABLE_LINKER__02-06-Supprimer_valeur_Debug CMakeFiles/02-06-Supprimer_valeur.dir/Exercices/09-Tableaux/02-06-Supprimer_valeur.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/02-06-Supprimer_valeur.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 02-06-Supprimer_valeur
-  TARGET_PDB = 02-06-Supprimer_valeur.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-06-Supprimer_valeur.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-06-Supprimer_valeur.exe
+  TARGET_IMPLIB = lib02-06-Supprimer_valeur.dll.a
+  TARGET_PDB = 02-06-Supprimer_valeur.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 02-08-Moyenne_notes
@@ -706,11 +748,11 @@ build 02-06-Supprimer_valeur: CXX_EXECUTABLE_LINKER__02-06-Supprimer_valeur_Debu
 
 build cmake_object_order_depends_target_02-08-Moyenne_notes: phony || CMakeFiles/02-08-Moyenne_notes.dir
 
-build CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp.o: CXX_COMPILER__02-08-Moyenne_notes_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp || cmake_object_order_depends_target_02-08-Moyenne_notes
-  DEP_FILE = CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp.o.d
+build CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp.obj: CXX_COMPILER__02-08-Moyenne_notes_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp || cmake_object_order_depends_target_02-08-Moyenne_notes
+  DEP_FILE = CMakeFiles\02-08-Moyenne_notes.dir\Exercices\09-Tableaux\02-08-Moyenne_notes.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/02-08-Moyenne_notes.dir
-  OBJECT_FILE_DIR = CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\02-08-Moyenne_notes.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-08-Moyenne_notes.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -718,15 +760,17 @@ build CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux/02-08-Moyenne_not
 
 
 #############################################
-# Link the executable 02-08-Moyenne_notes
+# Link the executable 02-08-Moyenne_notes.exe
 
-build 02-08-Moyenne_notes: CXX_EXECUTABLE_LINKER__02-08-Moyenne_notes_Debug CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp.o
+build 02-08-Moyenne_notes.exe: CXX_EXECUTABLE_LINKER__02-08-Moyenne_notes_Debug CMakeFiles/02-08-Moyenne_notes.dir/Exercices/09-Tableaux/02-08-Moyenne_notes.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/02-08-Moyenne_notes.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 02-08-Moyenne_notes
-  TARGET_PDB = 02-08-Moyenne_notes.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-08-Moyenne_notes.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-08-Moyenne_notes.exe
+  TARGET_IMPLIB = lib02-08-Moyenne_notes.dll.a
+  TARGET_PDB = 02-08-Moyenne_notes.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-02-To_string
@@ -737,11 +781,11 @@ build 02-08-Moyenne_notes: CXX_EXECUTABLE_LINKER__02-08-Moyenne_notes_Debug CMak
 
 build cmake_object_order_depends_target_03-02-To_string: phony || CMakeFiles/03-02-To_string.dir
 
-build CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux/03-02-To_string.cpp.o: CXX_COMPILER__03-02-To_string_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-02-To_string.cpp || cmake_object_order_depends_target_03-02-To_string
-  DEP_FILE = CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux/03-02-To_string.cpp.o.d
+build CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux/03-02-To_string.cpp.obj: CXX_COMPILER__03-02-To_string_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-02-To_string.cpp || cmake_object_order_depends_target_03-02-To_string
+  DEP_FILE = CMakeFiles\03-02-To_string.dir\Exercices\09-Tableaux\03-02-To_string.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-02-To_string.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\03-02-To_string.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-02-To_string.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -749,15 +793,17 @@ build CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux/03-02-To_string.cpp.o
 
 
 #############################################
-# Link the executable 03-02-To_string
+# Link the executable 03-02-To_string.exe
 
-build 03-02-To_string: CXX_EXECUTABLE_LINKER__03-02-To_string_Debug CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux/03-02-To_string.cpp.o
+build 03-02-To_string.exe: CXX_EXECUTABLE_LINKER__03-02-To_string_Debug CMakeFiles/03-02-To_string.dir/Exercices/09-Tableaux/03-02-To_string.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-02-To_string.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-02-To_string
-  TARGET_PDB = 03-02-To_string.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-02-To_string.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-02-To_string.exe
+  TARGET_IMPLIB = lib03-02-To_string.dll.a
+  TARGET_PDB = 03-02-To_string.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-03-Remplacement_valeur
@@ -768,11 +814,11 @@ build 03-02-To_string: CXX_EXECUTABLE_LINKER__03-02-To_string_Debug CMakeFiles/0
 
 build cmake_object_order_depends_target_03-03-Remplacement_valeur: phony || CMakeFiles/03-03-Remplacement_valeur.dir
 
-build CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp.o: CXX_COMPILER__03-03-Remplacement_valeur_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp || cmake_object_order_depends_target_03-03-Remplacement_valeur
-  DEP_FILE = CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp.o.d
+build CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp.obj: CXX_COMPILER__03-03-Remplacement_valeur_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp || cmake_object_order_depends_target_03-03-Remplacement_valeur
+  DEP_FILE = CMakeFiles\03-03-Remplacement_valeur.dir\Exercices\09-Tableaux\03-03-Remplacement_valeur.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-03-Remplacement_valeur.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\03-03-Remplacement_valeur.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-03-Remplacement_valeur.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -780,15 +826,17 @@ build CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux/03-03-Rempl
 
 
 #############################################
-# Link the executable 03-03-Remplacement_valeur
+# Link the executable 03-03-Remplacement_valeur.exe
 
-build 03-03-Remplacement_valeur: CXX_EXECUTABLE_LINKER__03-03-Remplacement_valeur_Debug CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp.o
+build 03-03-Remplacement_valeur.exe: CXX_EXECUTABLE_LINKER__03-03-Remplacement_valeur_Debug CMakeFiles/03-03-Remplacement_valeur.dir/Exercices/09-Tableaux/03-03-Remplacement_valeur.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-03-Remplacement_valeur.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-03-Remplacement_valeur
-  TARGET_PDB = 03-03-Remplacement_valeur.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-03-Remplacement_valeur.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-03-Remplacement_valeur.exe
+  TARGET_IMPLIB = lib03-03-Remplacement_valeur.dll.a
+  TARGET_PDB = 03-03-Remplacement_valeur.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-04-Span_croissant
@@ -799,11 +847,11 @@ build 03-03-Remplacement_valeur: CXX_EXECUTABLE_LINKER__03-03-Remplacement_valeu
 
 build cmake_object_order_depends_target_03-04-Span_croissant: phony || CMakeFiles/03-04-Span_croissant.dir
 
-build CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux/03-04-Span_croissant.cpp.o: CXX_COMPILER__03-04-Span_croissant_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-04-Span_croissant.cpp || cmake_object_order_depends_target_03-04-Span_croissant
-  DEP_FILE = CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux/03-04-Span_croissant.cpp.o.d
+build CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux/03-04-Span_croissant.cpp.obj: CXX_COMPILER__03-04-Span_croissant_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-04-Span_croissant.cpp || cmake_object_order_depends_target_03-04-Span_croissant
+  DEP_FILE = CMakeFiles\03-04-Span_croissant.dir\Exercices\09-Tableaux\03-04-Span_croissant.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-04-Span_croissant.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\03-04-Span_croissant.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-04-Span_croissant.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -811,15 +859,17 @@ build CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux/03-04-Span_crois
 
 
 #############################################
-# Link the executable 03-04-Span_croissant
+# Link the executable 03-04-Span_croissant.exe
 
-build 03-04-Span_croissant: CXX_EXECUTABLE_LINKER__03-04-Span_croissant_Debug CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux/03-04-Span_croissant.cpp.o
+build 03-04-Span_croissant.exe: CXX_EXECUTABLE_LINKER__03-04-Span_croissant_Debug CMakeFiles/03-04-Span_croissant.dir/Exercices/09-Tableaux/03-04-Span_croissant.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-04-Span_croissant.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-04-Span_croissant
-  TARGET_PDB = 03-04-Span_croissant.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-04-Span_croissant.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-04-Span_croissant.exe
+  TARGET_IMPLIB = lib03-04-Span_croissant.dll.a
+  TARGET_PDB = 03-04-Span_croissant.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-05-Ensemble
@@ -830,11 +880,11 @@ build 03-04-Span_croissant: CXX_EXECUTABLE_LINKER__03-04-Span_croissant_Debug CM
 
 build cmake_object_order_depends_target_03-05-Ensemble: phony || CMakeFiles/03-05-Ensemble.dir
 
-build CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux/03-05-Ensemble.cpp.o: CXX_COMPILER__03-05-Ensemble_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-05-Ensemble.cpp || cmake_object_order_depends_target_03-05-Ensemble
-  DEP_FILE = CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux/03-05-Ensemble.cpp.o.d
+build CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux/03-05-Ensemble.cpp.obj: CXX_COMPILER__03-05-Ensemble_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-05-Ensemble.cpp || cmake_object_order_depends_target_03-05-Ensemble
+  DEP_FILE = CMakeFiles\03-05-Ensemble.dir\Exercices\09-Tableaux\03-05-Ensemble.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-05-Ensemble.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\03-05-Ensemble.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-05-Ensemble.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -842,15 +892,17 @@ build CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux/03-05-Ensemble.cpp.o: 
 
 
 #############################################
-# Link the executable 03-05-Ensemble
+# Link the executable 03-05-Ensemble.exe
 
-build 03-05-Ensemble: CXX_EXECUTABLE_LINKER__03-05-Ensemble_Debug CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux/03-05-Ensemble.cpp.o
+build 03-05-Ensemble.exe: CXX_EXECUTABLE_LINKER__03-05-Ensemble_Debug CMakeFiles/03-05-Ensemble.dir/Exercices/09-Tableaux/03-05-Ensemble.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-05-Ensemble.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-05-Ensemble
-  TARGET_PDB = 03-05-Ensemble.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-05-Ensemble.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-05-Ensemble.exe
+  TARGET_IMPLIB = lib03-05-Ensemble.dll.a
+  TARGET_PDB = 03-05-Ensemble.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 03-06-Ensemble_trie
@@ -861,11 +913,11 @@ build 03-05-Ensemble: CXX_EXECUTABLE_LINKER__03-05-Ensemble_Debug CMakeFiles/03-
 
 build cmake_object_order_depends_target_03-06-Ensemble_trie: phony || CMakeFiles/03-06-Ensemble_trie.dir
 
-build CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp.o: CXX_COMPILER__03-06-Ensemble_trie_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp || cmake_object_order_depends_target_03-06-Ensemble_trie
-  DEP_FILE = CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp.o.d
+build CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp.obj: CXX_COMPILER__03-06-Ensemble_trie_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp || cmake_object_order_depends_target_03-06-Ensemble_trie
+  DEP_FILE = CMakeFiles\03-06-Ensemble_trie.dir\Exercices\09-Tableaux\03-06-Ensemble_trie.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/03-06-Ensemble_trie.dir
-  OBJECT_FILE_DIR = CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\03-06-Ensemble_trie.dir
+  OBJECT_FILE_DIR = CMakeFiles\03-06-Ensemble_trie.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -873,15 +925,17 @@ build CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux/03-06-Ensemble_tr
 
 
 #############################################
-# Link the executable 03-06-Ensemble_trie
+# Link the executable 03-06-Ensemble_trie.exe
 
-build 03-06-Ensemble_trie: CXX_EXECUTABLE_LINKER__03-06-Ensemble_trie_Debug CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp.o
+build 03-06-Ensemble_trie.exe: CXX_EXECUTABLE_LINKER__03-06-Ensemble_trie_Debug CMakeFiles/03-06-Ensemble_trie.dir/Exercices/09-Tableaux/03-06-Ensemble_trie.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/03-06-Ensemble_trie.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 03-06-Ensemble_trie
-  TARGET_PDB = 03-06-Ensemble_trie.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\03-06-Ensemble_trie.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03-06-Ensemble_trie.exe
+  TARGET_IMPLIB = lib03-06-Ensemble_trie.dll.a
+  TARGET_PDB = 03-06-Ensemble_trie.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 04-01-Matrice_vecteur
@@ -892,11 +946,11 @@ build 03-06-Ensemble_trie: CXX_EXECUTABLE_LINKER__03-06-Ensemble_trie_Debug CMak
 
 build cmake_object_order_depends_target_04-01-Matrice_vecteur: phony || CMakeFiles/04-01-Matrice_vecteur.dir
 
-build CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp.o: CXX_COMPILER__04-01-Matrice_vecteur_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp || cmake_object_order_depends_target_04-01-Matrice_vecteur
-  DEP_FILE = CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp.o.d
+build CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp.obj: CXX_COMPILER__04-01-Matrice_vecteur_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp || cmake_object_order_depends_target_04-01-Matrice_vecteur
+  DEP_FILE = CMakeFiles\04-01-Matrice_vecteur.dir\Exercices\09-Tableaux\04-01-Matrice_vecteur.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/04-01-Matrice_vecteur.dir
-  OBJECT_FILE_DIR = CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\04-01-Matrice_vecteur.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-01-Matrice_vecteur.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -904,15 +958,17 @@ build CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux/04-01-Matrice_v
 
 
 #############################################
-# Link the executable 04-01-Matrice_vecteur
+# Link the executable 04-01-Matrice_vecteur.exe
 
-build 04-01-Matrice_vecteur: CXX_EXECUTABLE_LINKER__04-01-Matrice_vecteur_Debug CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp.o
+build 04-01-Matrice_vecteur.exe: CXX_EXECUTABLE_LINKER__04-01-Matrice_vecteur_Debug CMakeFiles/04-01-Matrice_vecteur.dir/Exercices/09-Tableaux/04-01-Matrice_vecteur.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/04-01-Matrice_vecteur.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 04-01-Matrice_vecteur
-  TARGET_PDB = 04-01-Matrice_vecteur.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-01-Matrice_vecteur.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-01-Matrice_vecteur.exe
+  TARGET_IMPLIB = lib04-01-Matrice_vecteur.dll.a
+  TARGET_PDB = 04-01-Matrice_vecteur.exe.dbg
 
 # =============================================================================
 # Object build statements for EXECUTABLE target 04-02-Tableau_2d_caractere
@@ -923,11 +979,11 @@ build 04-01-Matrice_vecteur: CXX_EXECUTABLE_LINKER__04-01-Matrice_vecteur_Debug 
 
 build cmake_object_order_depends_target_04-02-Tableau_2d_caractere: phony || CMakeFiles/04-02-Tableau_2d_caractere.dir
 
-build CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp.o: CXX_COMPILER__04-02-Tableau_2d_caractere_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp || cmake_object_order_depends_target_04-02-Tableau_2d_caractere
-  DEP_FILE = CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp.o.d
+build CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp.obj: CXX_COMPILER__04-02-Tableau_2d_caractere_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp || cmake_object_order_depends_target_04-02-Tableau_2d_caractere
+  DEP_FILE = CMakeFiles\04-02-Tableau_2d_caractere.dir\Exercices\09-Tableaux\04-02-Tableau_2d_caractere.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/04-02-Tableau_2d_caractere.dir
-  OBJECT_FILE_DIR = CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux
+  OBJECT_DIR = CMakeFiles\04-02-Tableau_2d_caractere.dir
+  OBJECT_FILE_DIR = CMakeFiles\04-02-Tableau_2d_caractere.dir\Exercices\09-Tableaux
 
 
 # =============================================================================
@@ -935,22 +991,189 @@ build CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux/04-02-Tabl
 
 
 #############################################
-# Link the executable 04-02-Tableau_2d_caractere
+# Link the executable 04-02-Tableau_2d_caractere.exe
 
-build 04-02-Tableau_2d_caractere: CXX_EXECUTABLE_LINKER__04-02-Tableau_2d_caractere_Debug CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp.o
+build 04-02-Tableau_2d_caractere.exe: CXX_EXECUTABLE_LINKER__04-02-Tableau_2d_caractere_Debug CMakeFiles/04-02-Tableau_2d_caractere.dir/Exercices/09-Tableaux/04-02-Tableau_2d_caractere.cpp.obj
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/04-02-Tableau_2d_caractere.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = 04-02-Tableau_2d_caractere
-  TARGET_PDB = 04-02-Tableau_2d_caractere.dbg
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\04-02-Tableau_2d_caractere.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04-02-Tableau_2d_caractere.exe
+  TARGET_IMPLIB = lib04-02-Tableau_2d_caractere.dll.a
+  TARGET_PDB = 04-02-Tableau_2d_caractere.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05-01-Factorielle
+
+
+#############################################
+# Order-only phony target for 05-01-Factorielle
+
+build cmake_object_order_depends_target_05-01-Factorielle: phony || CMakeFiles/05-01-Factorielle.dir
+
+build CMakeFiles/05-01-Factorielle.dir/Exercices/04-Fonctions/05-01-Factorielle.cpp.obj: CXX_COMPILER__05-01-Factorielle_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/04-Fonctions/05-01-Factorielle.cpp || cmake_object_order_depends_target_05-01-Factorielle
+  DEP_FILE = CMakeFiles\05-01-Factorielle.dir\Exercices\04-Fonctions\05-01-Factorielle.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05-01-Factorielle.dir
+  OBJECT_FILE_DIR = CMakeFiles\05-01-Factorielle.dir\Exercices\04-Fonctions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05-01-Factorielle
+
+
+#############################################
+# Link the executable 05-01-Factorielle.exe
+
+build 05-01-Factorielle.exe: CXX_EXECUTABLE_LINKER__05-01-Factorielle_Debug CMakeFiles/05-01-Factorielle.dir/Exercices/04-Fonctions/05-01-Factorielle.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05-01-Factorielle.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05-01-Factorielle.exe
+  TARGET_IMPLIB = lib05-01-Factorielle.dll.a
+  TARGET_PDB = 05-01-Factorielle.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05-02-Fibonacci
+
+
+#############################################
+# Order-only phony target for 05-02-Fibonacci
+
+build cmake_object_order_depends_target_05-02-Fibonacci: phony || CMakeFiles/05-02-Fibonacci.dir
+
+build CMakeFiles/05-02-Fibonacci.dir/Exercices/04-Fonctions/05-02-Fibonacci.cpp.obj: CXX_COMPILER__05-02-Fibonacci_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/04-Fonctions/05-02-Fibonacci.cpp || cmake_object_order_depends_target_05-02-Fibonacci
+  DEP_FILE = CMakeFiles\05-02-Fibonacci.dir\Exercices\04-Fonctions\05-02-Fibonacci.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\05-02-Fibonacci.dir
+  OBJECT_FILE_DIR = CMakeFiles\05-02-Fibonacci.dir\Exercices\04-Fonctions
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05-02-Fibonacci
+
+
+#############################################
+# Link the executable 05-02-Fibonacci.exe
+
+build 05-02-Fibonacci.exe: CXX_EXECUTABLE_LINKER__05-02-Fibonacci_Debug CMakeFiles/05-02-Fibonacci.dir/Exercices/04-Fonctions/05-02-Fibonacci.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\05-02-Fibonacci.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 05-02-Fibonacci.exe
+  TARGET_IMPLIB = lib05-02-Fibonacci.dll.a
+  TARGET_PDB = 05-02-Fibonacci.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-01-Ecriture_dans_un_fichier
+
+
+#############################################
+# Order-only phony target for 01-01-Ecriture_dans_un_fichier
+
+build cmake_object_order_depends_target_01-01-Ecriture_dans_un_fichier: phony || CMakeFiles/01-01-Ecriture_dans_un_fichier.dir
+
+build CMakeFiles/01-01-Ecriture_dans_un_fichier.dir/Exercices/05-Flux/01-01-Ecriture_dans_un_fichier.cpp.obj: CXX_COMPILER__01-01-Ecriture_dans_un_fichier_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/05-Flux/01-01-Ecriture_dans_un_fichier.cpp || cmake_object_order_depends_target_01-01-Ecriture_dans_un_fichier
+  DEP_FILE = CMakeFiles\01-01-Ecriture_dans_un_fichier.dir\Exercices\05-Flux\01-01-Ecriture_dans_un_fichier.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-01-Ecriture_dans_un_fichier.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-01-Ecriture_dans_un_fichier.dir\Exercices\05-Flux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-01-Ecriture_dans_un_fichier
+
+
+#############################################
+# Link the executable 01-01-Ecriture_dans_un_fichier.exe
+
+build 01-01-Ecriture_dans_un_fichier.exe: CXX_EXECUTABLE_LINKER__01-01-Ecriture_dans_un_fichier_Debug CMakeFiles/01-01-Ecriture_dans_un_fichier.dir/Exercices/05-Flux/01-01-Ecriture_dans_un_fichier.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-01-Ecriture_dans_un_fichier.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-01-Ecriture_dans_un_fichier.exe
+  TARGET_IMPLIB = lib01-01-Ecriture_dans_un_fichier.dll.a
+  TARGET_PDB = 01-01-Ecriture_dans_un_fichier.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01-02-Lecture_et_ajout_dans_un_fichier
+
+
+#############################################
+# Order-only phony target for 01-02-Lecture_et_ajout_dans_un_fichier
+
+build cmake_object_order_depends_target_01-02-Lecture_et_ajout_dans_un_fichier: phony || CMakeFiles/01-02-Lecture_et_ajout_dans_un_fichier.dir
+
+build CMakeFiles/01-02-Lecture_et_ajout_dans_un_fichier.dir/Exercices/05-Flux/01-02-Lecture_et_ajout_dans_un_fichier.cpp.obj: CXX_COMPILER__01-02-Lecture_et_ajout_dans_un_fichier_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/05-Flux/01-02-Lecture_et_ajout_dans_un_fichier.cpp || cmake_object_order_depends_target_01-02-Lecture_et_ajout_dans_un_fichier
+  DEP_FILE = CMakeFiles\01-02-Lecture_et_ajout_dans_un_fichier.dir\Exercices\05-Flux\01-02-Lecture_et_ajout_dans_un_fichier.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\01-02-Lecture_et_ajout_dans_un_fichier.dir
+  OBJECT_FILE_DIR = CMakeFiles\01-02-Lecture_et_ajout_dans_un_fichier.dir\Exercices\05-Flux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01-02-Lecture_et_ajout_dans_un_fichier
+
+
+#############################################
+# Link the executable 01-02-Lecture_et_ajout_dans_un_fichier.exe
+
+build 01-02-Lecture_et_ajout_dans_un_fichier.exe: CXX_EXECUTABLE_LINKER__01-02-Lecture_et_ajout_dans_un_fichier_Debug CMakeFiles/01-02-Lecture_et_ajout_dans_un_fichier.dir/Exercices/05-Flux/01-02-Lecture_et_ajout_dans_un_fichier.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\01-02-Lecture_et_ajout_dans_un_fichier.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01-02-Lecture_et_ajout_dans_un_fichier.exe
+  TARGET_IMPLIB = lib01-02-Lecture_et_ajout_dans_un_fichier.dll.a
+  TARGET_PDB = 01-02-Lecture_et_ajout_dans_un_fichier.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 02-01-Redirection_cin
+
+
+#############################################
+# Order-only phony target for 02-01-Redirection_cin
+
+build cmake_object_order_depends_target_02-01-Redirection_cin: phony || CMakeFiles/02-01-Redirection_cin.dir
+
+build CMakeFiles/02-01-Redirection_cin.dir/Exercices/05-Flux/02-01-Redirection_cin.cpp.obj: CXX_COMPILER__02-01-Redirection_cin_unscanned_Debug E$:/HEIG_Git/PRG1_Recueil_Exercices/Exercices/05-Flux/02-01-Redirection_cin.cpp || cmake_object_order_depends_target_02-01-Redirection_cin
+  DEP_FILE = CMakeFiles\02-01-Redirection_cin.dir\Exercices\05-Flux\02-01-Redirection_cin.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\02-01-Redirection_cin.dir
+  OBJECT_FILE_DIR = CMakeFiles\02-01-Redirection_cin.dir\Exercices\05-Flux
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02-01-Redirection_cin
+
+
+#############################################
+# Link the executable 02-01-Redirection_cin.exe
+
+build 02-01-Redirection_cin.exe: CXX_EXECUTABLE_LINKER__02-01-Redirection_cin_Debug CMakeFiles/02-01-Redirection_cin.dir/Exercices/05-Flux/02-01-Redirection_cin.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\02-01-Redirection_cin.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02-01-Redirection_cin.exe
+  TARGET_IMPLIB = lib02-01-Redirection_cin.dll.a
+  TARGET_PDB = 02-01-Redirection_cin.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug && /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cmd.exe /C "cd /D E:\HEIG_Git\PRG1_Recueil_Exercices\cmake-build-debug && C:\Users\Nils\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -961,7 +1184,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug && /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/bin/cmake --regenerate-during-build -S/home/enigma/CLionProjects/PRG1_Recueil_Exercices -B/home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug
+  COMMAND = cmd.exe /C "cd /D E:\HEIG_Git\PRG1_Recueil_Exercices\cmake-build-debug && C:\Users\Nils\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SE:\HEIG_Git\PRG1_Recueil_Exercices -BE:\HEIG_Git\PRG1_Recueil_Exercices\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -971,15 +1194,83 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
+build 01-01-Ecriture_dans_un_fichier: phony 01-01-Ecriture_dans_un_fichier.exe
+
+build 01-02-Lecture_et_ajout_dans_un_fichier: phony 01-02-Lecture_et_ajout_dans_un_fichier.exe
+
+build 01-04-Date_Personne: phony 01-04-Date_Personne.exe
+
+build 01-05-est_bissextile: phony 01-05-est_bissextile.exe
+
+build 01-06-Calcul_vectoriel: phony 01-06-Calcul_vectoriel.exe
+
+build 01-06-Nombre_jours_entre_2_dates: phony 01-06-Nombre_jours_entre_2_dates.exe
+
+build 01-07-Stack: phony 01-07-Stack.exe
+
+build 01-08-Jour: phony 01-08-Jour.exe
+
+build 02-01-Redirection_cin: phony 02-01-Redirection_cin.exe
+
+build 02-03-To_string: phony 02-03-To_string.exe
+
+build 02-04-Rotate_right: phony 02-04-Rotate_right.exe
+
+build 02-05-Supprimer_elements_centraux: phony 02-05-Supprimer_elements_centraux.exe
+
+build 02-06-Supprimer_valeur: phony 02-06-Supprimer_valeur.exe
+
+build 02-07-Rendre_unique: phony 02-07-Rendre_unique.exe
+
+build 02-08-Moyenne_notes: phony 02-08-Moyenne_notes.exe
+
+build 03-01-Milieu-chaine-caractere: phony 03-01-Milieu-chaine-caractere.exe
+
+build 03-02-Chiffres_romains: phony 03-02-Chiffres_romains.exe
+
+build 03-02-To_string: phony 03-02-To_string.exe
+
+build 03-03-Analyse_nombre_entier: phony 03-03-Analyse_nombre_entier.exe
+
+build 03-03-Deplacer_point: phony 03-03-Deplacer_point.exe
+
+build 03-03-Remplacement_valeur: phony 03-03-Remplacement_valeur.exe
+
+build 03-04-Chiffre_en_toute_lettre: phony 03-04-Chiffre_en_toute_lettre.exe
+
+build 03-04-Nom_acronyme: phony 03-04-Nom_acronyme.exe
+
+build 03-04-Span_croissant: phony 03-04-Span_croissant.exe
+
+build 03-05-Coordonnees_GPS: phony 03-05-Coordonnees_GPS.exe
+
+build 03-05-Ensemble: phony 03-05-Ensemble.exe
+
+build 03-05-Palindrome: phony 03-05-Palindrome.exe
+
+build 03-06-Ensemble_trie: phony 03-06-Ensemble_trie.exe
+
+build 03-07-Recherche_dichotomique: phony 03-07-Recherche_dichotomique.exe
+
+build 04-01-Matrice_vecteur: phony 04-01-Matrice_vecteur.exe
+
+build 04-02-Compter_occurences: phony 04-02-Compter_occurences.exe
+
+build 04-02-Tableau_2d_caractere: phony 04-02-Tableau_2d_caractere.exe
+
+build 05-01-Factorielle: phony 05-01-Factorielle.exe
+
+build 05-02-Fibonacci: phony 05-02-Fibonacci.exe
+
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: /home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug
+# Folder: E:/HEIG_Git/PRG1_Recueil_Exercices/cmake-build-debug
 
-build all: phony 01-04-Date_Personne 01-05-est_bissextile 01-06-Nombre_jours_entre_2_dates 03-03-Deplacer_point 03-04-Chiffre_en_toute_lettre 03-05-Coordonnees_GPS 03-01-Milieu-chaine-caractere 03-02-Chiffres_romains 03-03-Analyse_nombre_entier 03-04-Nom_acronyme 03-05-Palindrome 04-02-Compter_occurences 01-06-Calcul_vectoriel 02-07-Rendre_unique 03-07-Recherche_dichotomique 01-07-Stack 01-08-Jour 02-03-To_string 02-04-Rotate_right 02-05-Supprimer_elements_centraux 02-06-Supprimer_valeur 02-08-Moyenne_notes 03-02-To_string 03-03-Remplacement_valeur 03-04-Span_croissant 03-05-Ensemble 03-06-Ensemble_trie 04-01-Matrice_vecteur 04-02-Tableau_2d_caractere
+build all: phony 01-04-Date_Personne.exe 01-05-est_bissextile.exe 01-06-Nombre_jours_entre_2_dates.exe 03-03-Deplacer_point.exe 03-04-Chiffre_en_toute_lettre.exe 03-05-Coordonnees_GPS.exe 03-01-Milieu-chaine-caractere.exe 03-02-Chiffres_romains.exe 03-03-Analyse_nombre_entier.exe 03-04-Nom_acronyme.exe 03-05-Palindrome.exe 04-02-Compter_occurences.exe 01-06-Calcul_vectoriel.exe 02-07-Rendre_unique.exe 03-07-Recherche_dichotomique.exe 01-07-Stack.exe 01-08-Jour.exe 02-03-To_string.exe 02-04-Rotate_right.exe 02-05-Supprimer_elements_centraux.exe 02-06-Supprimer_valeur.exe 02-08-Moyenne_notes.exe 03-02-To_string.exe 03-03-Remplacement_valeur.exe 03-04-Span_croissant.exe 03-05-Ensemble.exe 03-06-Ensemble_trie.exe 04-01-Matrice_vecteur.exe 04-02-Tableau_2d_caractere.exe 05-01-Factorielle.exe 05-02-Fibonacci.exe 01-01-Ecriture_dans_un_fichier.exe 01-02-Lecture_et_ajout_dans_un_fichier.exe 02-01-Redirection_cin.exe
 
 # =============================================================================
 # Built-in targets
@@ -988,14 +1279,14 @@ build all: phony 01-04-Date_Personne 01-05-est_bissextile 01-06-Nombre_jours_ent
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /home/enigma/CLionProjects/PRG1_Recueil_Exercices/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/HEIG_Git/PRG1_Recueil_Exercices/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake /home/enigma/.local/share/JetBrains/Toolbox/apps/clion/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /home/enigma/CLionProjects/PRG1_Recueil_Exercices/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeRCInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-C.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU-CXX.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-GNU.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows-windres.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/Windows.cmake C$:/Users/Nils/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.26/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeRCCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake E$:/HEIG_Git/PRG1_Recueil_Exercices/CMakeLists.txt: phony
 
 
 #############################################
