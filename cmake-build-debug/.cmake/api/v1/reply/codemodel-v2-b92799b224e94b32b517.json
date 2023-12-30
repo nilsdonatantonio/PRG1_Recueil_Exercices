@@ -48,7 +48,8 @@
 						30,
 						31,
 						32,
-						33
+						33,
+						34
 					]
 				}
 			],
@@ -96,7 +97,8 @@
 						30,
 						31,
 						32,
-						33
+						33,
+						34
 					]
 				}
 			],
@@ -219,6 +221,13 @@
 					"id" : "03-02-Chiffres_romains::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-03-02-Chiffres_romains-Debug-075d39c5c1478848bab5.json",
 					"name" : "03-02-Chiffres_romains",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "03-02-Formattage_infos_etudiants::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-03-02-Formattage_infos_etudiants-Debug-94fc716d80dad6c89a85.json",
+					"name" : "03-02-Formattage_infos_etudiants",
 					"projectIndex" : 0
 				},
 				{

@@ -13,7 +13,7 @@
 148	177	1700423654668639202	03-03-Analyse_nombre_entier	21c14553bb9bc4c7
 108	139	1700417810193761239	03-01-Milieu-chaine-caractere	390c9b40ee1904c5
 112	142	1700422804905407138	03-02-Chiffres_romains	8425fe02f68fb6c5
-0	10	7255508795355433	build.ninja	50a83e9fb9fc0dc8
+0	10	7256453457692016	build.ninja	50a83e9fb9fc0dc8
 203	235	1701619992900620726	04-01-Matrice_vecteur	6aa39b7c86d73b1b
 281	313	1701247861546743491	03-03-Remplacement_valeur	402897dd539518fd
 268	302	1701197529358533493	02-05-Supprimer_elements_centraux	31f5dc74a4031548
@@ -27,3 +27,15 @@
 690	966	7255480761426287	05-01-Factorielle.exe	8a8c478676fa424f
 0	743	7255482826420976	CMakeFiles/05-02-Fibonacci.dir/Exercices/04-Fonctions/05-02-Fibonacci.cpp.obj	d48c32f2ad257a49
 744	981	7255482828700146	05-02-Fibonacci.exe	342dce14ee25cc20
+1	1123	7256466342101642	CMakeFiles/03-02-Formattage_infos_etudiants.dir/Exercices/05-Flux/03-02-Formattage_infos_etudiants.cpp.obj	119c334434f8670d
+1123	1497	7256466345728388	03-02-Formattage_infos_etudiants.exe	f4efa7a35086d966
+3	963	7256467074115134	CMakeFiles/03-02-Formattage_infos_etudiants.dir/Exercices/05-Flux/03-02-Formattage_infos_etudiants.cpp.obj	119c334434f8670d
+964	1208	7256467076473921	03-02-Formattage_infos_etudiants.exe	f4efa7a35086d966
+3	778	7256468259540665	CMakeFiles/03-02-Formattage_infos_etudiants.dir/Exercices/05-Flux/03-02-Formattage_infos_etudiants.cpp.obj	119c334434f8670d
+779	1026	7256468261919304	03-02-Formattage_infos_etudiants.exe	f4efa7a35086d966
+2	804	7256468820830524	CMakeFiles/03-02-Formattage_infos_etudiants.dir/Exercices/05-Flux/03-02-Formattage_infos_etudiants.cpp.obj	119c334434f8670d
+804	1028	7256468822929334	03-02-Formattage_infos_etudiants.exe	f4efa7a35086d966
+3	789	7256469305731152	CMakeFiles/03-02-Formattage_infos_etudiants.dir/Exercices/05-Flux/03-02-Formattage_infos_etudiants.cpp.obj	119c334434f8670d
+790	1035	7256469308073489	03-02-Formattage_infos_etudiants.exe	f4efa7a35086d966
+3	838	7256470862697145	CMakeFiles/03-02-Formattage_infos_etudiants.dir/Exercices/05-Flux/03-02-Formattage_infos_etudiants.cpp.obj	119c334434f8670d
+839	1095	7256470865145744	03-02-Formattage_infos_etudiants.exe	f4efa7a35086d966
