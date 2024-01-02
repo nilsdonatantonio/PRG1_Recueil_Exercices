@@ -1,6 +1,6 @@
-# Même éléments
+# Mêmes éléments
 
-Ecrire une fonction `meme_elements` qui reçoit deux tabéeaux en paramtêre de type `<T>` et retourne `true` si les deux tableaux contiennent les même éléments et `false` dans le cas contraire.
+Ecrire une fonction `meme_elements` qui reçoit deux tabéeaux en paramètre de type `<T>` et retourne `true` si les deux tableaux contiennent les même éléments et `false` dans le cas contraire.
 
 - l'ordre n'a pas d'importance
 - les valeurs à double sont possibles
@@ -65,6 +65,32 @@ int main() {
    cout << span<int>(v) << endl;
 
    cout << meme_elements<int>(span<int>(a), span<int>(v));
+}
+~~~
+
+</details>
+
+🤔... et si nous voulions écrire
+
+~~~cpp
+if (span<int>(a) == span<int>(v)) { ... }
+~~~
+
+<details>
+<summary>Solution</summary>
+
+~~~cpp
+template <typename T>
+bool operator== (span<T> tab1, span<T> tab2) {
+   for (const T& e : tab1)
+      if (not tab_contient_val<T>(e, tab2))
+         return false;
+
+   for (const T& e : tab2)
+      if (not tab_contient_val<T>(e, tab1))
+         return false;
+
+   return true;
 }
 ~~~
 

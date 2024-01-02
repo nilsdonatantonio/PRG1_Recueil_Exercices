@@ -37,7 +37,7 @@ template <typename T>
 struct entre {
    const T& min;
    const T& max;
-   bool operator() (T e) { return e >= min and e <= max; }
+   bool operator() (const T& e) { return e >= min and e <= max; }
 };
 
 //---------------------------------------------------------
@@ -59,6 +59,7 @@ int main() {
 int min=3,
     max=6;
     
+// [&min, &max] en référence pour ne pas copier les valeurs
 cout << count_if(v.begin(), v.end(),
                  [&min, &max](int e) {return e >= min and e <= max; });
 ~~~
