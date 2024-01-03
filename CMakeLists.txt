@@ -49,3 +49,8 @@ add_executable(01-01-Ecriture_dans_un_fichier Exercices/05-Flux/01-01-Ecriture_d
 add_executable(01-02-Lecture_et_ajout_dans_un_fichier Exercices/05-Flux/01-02-Lecture_et_ajout_dans_un_fichier.cpp)
 add_executable(02-01-Redirection_cin Exercices/05-Flux/02-01-Redirection_cin.cpp)
 add_executable(03-02-Formattage_infos_etudiants Exercices/05-Flux/03-02-Formattage_infos_etudiants.cpp)
+add_executable(11-01-01-Structure_Point Exercices/11-Classes/11-01-01-Structure_Point.cpp)
+add_executable(11-02-01-Point Exercices/11-Classes/11-02-01-Point.cpp)
+add_executable(11-03-01-Point_avec_constructeur Exercices/11-Classes/11-03-01-Point_avec_constructeur.cpp)
+add_executable(11-03-02-Point_avec_limites Exercices/11-Classes/11-03-02-Point_avec_limites.cpp)
+add_executable(11-03-03-Pays Exercices/11-Classes/11-03-03-Pays.cpp)
