@@ -1478,6 +1478,37 @@ build 11-06-04-Messages: CXX_EXECUTABLE_LINKER__11-06-04-Messages_Debug CMakeFil
   TARGET_FILE = 11-06-04-Messages
   TARGET_PDB = 11-06-04-Messages.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 13-01-01-Class_Coord
+
+
+#############################################
+# Order-only phony target for 13-01-01-Class_Coord
+
+build cmake_object_order_depends_target_13-01-01-Class_Coord: phony || CMakeFiles/13-01-01-Class_Coord.dir
+
+build CMakeFiles/13-01-01-Class_Coord.dir/Exercices/13-Class_generique/13-01-01-Class_Coord.cpp.o: CXX_COMPILER__13-01-01-Class_Coord_unscanned_Debug /home/enigma/CLionProjects/PRG1_Recueil_Exercices/Exercices/13-Class_generique/13-01-01-Class_Coord.cpp || cmake_object_order_depends_target_13-01-01-Class_Coord
+  DEP_FILE = CMakeFiles/13-01-01-Class_Coord.dir/Exercices/13-Class_generique/13-01-01-Class_Coord.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/13-01-01-Class_Coord.dir
+  OBJECT_FILE_DIR = CMakeFiles/13-01-01-Class_Coord.dir/Exercices/13-Class_generique
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 13-01-01-Class_Coord
+
+
+#############################################
+# Link the executable 13-01-01-Class_Coord
+
+build 13-01-01-Class_Coord: CXX_EXECUTABLE_LINKER__13-01-01-Class_Coord_Debug CMakeFiles/13-01-01-Class_Coord.dir/Exercices/13-Class_generique/13-01-01-Class_Coord.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/13-01-01-Class_Coord.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 13-01-01-Class_Coord
+  TARGET_PDB = 13-01-01-Class_Coord.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -1512,7 +1543,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /home/enigma/CLionProjects/PRG1_Recueil_Exercices/cmake-build-debug
 
-build all: phony 01-04-Date_Personne 01-05-est_bissextile 01-06-Nombre_jours_entre_2_dates 03-03-Deplacer_point 03-04-Chiffre_en_toute_lettre 03-05-Coordonnees_GPS 03-01-Milieu-chaine-caractere 03-02-Chiffres_romains 03-03-Analyse_nombre_entier 03-04-Nom_acronyme 03-05-Palindrome 04-02-Compter_occurences 01-06-Calcul_vectoriel 02-07-Rendre_unique 03-07-Recherche_dichotomique 01-07-Stack 01-08-Jour 02-03-To_string 02-04-Rotate_right 02-05-Supprimer_elements_centraux 02-06-Supprimer_valeur 02-08-Moyenne_notes 03-02-To_string 03-03-Remplacement_valeur 03-04-Span_croissant 03-05-Ensemble 03-06-Ensemble_trie 04-01-Matrice_vecteur 04-02-Tableau_2d_caractere 05-01-Factorielle 05-02-Fibonacci 01-01-Ecriture_dans_un_fichier 01-02-Lecture_et_ajout_dans_un_fichier 02-01-Redirection_cin 03-02-Formattage_infos_etudiants 11-01-01-Structure_Point 11-02-01-Point 11-03-01-Point_avec_constructeur 11-03-02-Point_avec_limites 11-03-03-Pays 11-03-04-Robot 11-04-01-Point_avec_operateur 11-04-02-Surcharge_des_operateurs 11-05-01-Point_avec_identifiant_unique 11-05-02-Voitures 11-06-04-Messages
+build all: phony 01-04-Date_Personne 01-05-est_bissextile 01-06-Nombre_jours_entre_2_dates 03-03-Deplacer_point 03-04-Chiffre_en_toute_lettre 03-05-Coordonnees_GPS 03-01-Milieu-chaine-caractere 03-02-Chiffres_romains 03-03-Analyse_nombre_entier 03-04-Nom_acronyme 03-05-Palindrome 04-02-Compter_occurences 01-06-Calcul_vectoriel 02-07-Rendre_unique 03-07-Recherche_dichotomique 01-07-Stack 01-08-Jour 02-03-To_string 02-04-Rotate_right 02-05-Supprimer_elements_centraux 02-06-Supprimer_valeur 02-08-Moyenne_notes 03-02-To_string 03-03-Remplacement_valeur 03-04-Span_croissant 03-05-Ensemble 03-06-Ensemble_trie 04-01-Matrice_vecteur 04-02-Tableau_2d_caractere 05-01-Factorielle 05-02-Fibonacci 01-01-Ecriture_dans_un_fichier 01-02-Lecture_et_ajout_dans_un_fichier 02-01-Redirection_cin 03-02-Formattage_infos_etudiants 11-01-01-Structure_Point 11-02-01-Point 11-03-01-Point_avec_constructeur 11-03-02-Point_avec_limites 11-03-03-Pays 11-03-04-Robot 11-04-01-Point_avec_operateur 11-04-02-Surcharge_des_operateurs 11-05-01-Point_avec_identifiant_unique 11-05-02-Voitures 11-06-04-Messages 13-01-01-Class_Coord
 
 # =============================================================================
 # Built-in targets
