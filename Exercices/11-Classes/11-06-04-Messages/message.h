@@ -19,7 +19,7 @@ public :
     //member functions
     void ajouter(const std::string text);
     std::string toString(std::string exp, std::string dest, std::time_t date_creation);
-    void afficher() const;
+    void afficher() const;  
 
 
 private:
