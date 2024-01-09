@@ -60,4 +60,6 @@ add_executable(11-04-02-Surcharge_des_operateurs Exercices/11-Classes/11-04-02-S
 add_executable(11-05-01-Point_avec_identifiant_unique Exercices/11-Classes/11-05-01-Point_avec_identifiant_unique.cpp)
 add_executable(11-05-02-Voitures Exercices/11-Classes/11-05-02-Voitures.cpp)
 add_executable(11-06-04-Messages Exercices/11-Classes/11-06-04-Messages/11-06-04-Messages.cpp
-        Exercices/11-Classes/11-06-04-Messages/message.h)
+        Exercices/11-Classes/11-06-04-Messages/message.h
+        Exercices/11-Classes/11-06-04-Messages/message.cpp)
+add_executable(13-01-01-Class_Coord Exercices/13-Class_generique/13-01-01-Class_Coord.cpp)

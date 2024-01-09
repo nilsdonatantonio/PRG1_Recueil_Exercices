@@ -22,6 +22,7 @@ public :
     void afficher() const;  
 
 
+
 private:
 
     std::string expediteur;
