@@ -63,3 +63,4 @@ add_executable(11-06-04-Messages Exercices/11-Classes/11-06-04-Messages/11-06-04
         Exercices/11-Classes/11-06-04-Messages/message.h
         Exercices/11-Classes/11-06-04-Messages/message.cpp)
 add_executable(13-01-01-Class_Coord Exercices/13-Class_generique/13-01-01-Class_Coord.cpp)
+add_executable(13-01-02-Class_point Exercices/13-Class_generique/13-01-02-Class_point.cpp)

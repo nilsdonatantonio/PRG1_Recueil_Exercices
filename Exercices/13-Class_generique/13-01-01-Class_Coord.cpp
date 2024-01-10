@@ -3,9 +3,12 @@
 //
 
 #include <iostream>
+#include <vector>
 
 
 using namespace std;
+
+
 
 template<typename T>
 class Coord{
@@ -32,6 +35,8 @@ public:
         y += new_y;
     }
 };
+
+
 
 
 int main(){
