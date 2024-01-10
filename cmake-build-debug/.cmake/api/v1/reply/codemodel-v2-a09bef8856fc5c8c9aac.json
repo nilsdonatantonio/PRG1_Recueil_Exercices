@@ -62,7 +62,10 @@
 						44,
 						45,
 						46,
-						47
+						47,
+						48,
+						49,
+						50
 					]
 				}
 			],
@@ -124,7 +127,10 @@
 						44,
 						45,
 						46,
-						47
+						47,
+						48,
+						49,
+						50
 					]
 				}
 			],
@@ -135,6 +141,13 @@
 					"id" : "01-01-Ecriture_dans_un_fichier::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-01-01-Ecriture_dans_un_fichier-Debug-279ecb3c31dbddda0c65.json",
 					"name" : "01-01-Ecriture_dans_un_fichier",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "01-01-Memoire::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-01-01-Memoire-Debug-022cb586ccee40cf36ff.json",
+					"name" : "01-01-Memoire",
 					"projectIndex" : 0
 				},
 				{
@@ -202,9 +215,23 @@
 				},
 				{
 					"directoryIndex" : 0,
+					"id" : "02-04-Concat_vectors::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-04-Concat_vectors-Debug-6279d1d57e961b462481.json",
+					"name" : "02-04-Concat_vectors",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
 					"id" : "02-04-Rotate_right::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-02-04-Rotate_right-Debug-126c8a2596fc5be6e052.json",
 					"name" : "02-04-Rotate_right",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "02-05-Fusion_alternee::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-02-05-Fusion_alternee-Debug-ef43a804e07183a28d0a.json",
+					"name" : "02-05-Fusion_alternee",
 					"projectIndex" : 0
 				},
 				{

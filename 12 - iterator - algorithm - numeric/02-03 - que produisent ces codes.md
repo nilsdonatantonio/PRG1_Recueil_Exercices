@@ -15,6 +15,7 @@ Que valent les vecteurs après chacun des instructions ci-après.<br>
 ~~~cpp
 // no 1
 vector v1(v.begin(), v.end());
+
 ~~~
 
 <details>
