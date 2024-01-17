@@ -1,42 +1,26 @@
-# classe générique Coord 
+# classe générique Coord - assert 
 
-Ecrire la classe `Coord` qui permet d'obtenir le résultat indiqué pour les instructions suivantes.
+Reprise de l'exercice [13-01-01 - classe Coord](13-01-01%20-%20classe%20Coord.md)
+
+🤔 Probablement que votre solution permettait d'écrire ceci ?
 
 ~~~cpp
-cout << "origine  : ";
-const Coord<int> origin;
-origin.afficher();
-cout << endl;
-
-cout << "p1       : ";
-Coord<int> p1;
-p1.setCoord(1, 2);
-p1.afficher();
-cout << endl;
-
-cout << "p2       : ";
-Coord<double> p2(3, 4);
-p2.afficher();
-cout << endl;
-
-cout << "p2->     : ";
-p2.deplacer(1, 1);   // conversion int => double
-cout << "(" << p2.getX() << ", " << p2.getY() << ")";
-cout << endl;
+Coord<string> p3("x", "y");
+p3.afficher();  // p3 : (x, y)
 ~~~
 
-~~~
-origine  : (0, 0)
-p1       : (1, 2)
-p2       : (3, 4)
-p2->     : (4, 5)
-~~~
+<br>
+Restreinde le type générique utilisé à des valeurs numériques ?
+
+💡Utiliser [`type_traits`](https://cplusplus.com/reference/type_traits/) et [`static_assert`](https://en.cppreference.com/w/cpp/language/static_assert)
 
 <details>
 <summary>Solution</summary>
 
 ~~~cpp
 #include <iostream>
+#include <type_traits>
+
 using namespace std;
 
 //------------------------------------------------------------
@@ -54,6 +38,7 @@ public:
    void afficher() const;
 
 private:
+   static_assert(std::is_arithmetic<T>::value, "T is not an arithmetic value");
    T x;
    T y;
    T z;
@@ -61,6 +46,7 @@ private:
 
 //------------------------------------------------------------
 int main() {
+
    cout << "origine  : ";
    const Coord<int> origin;
    origin.afficher();
@@ -79,10 +65,11 @@ int main() {
 
    cout << "p2->     : ";
    p2.deplacer(1, 1);            // conversion int => double
-   p2.afficher();
+   cout << "(" << p2.getX() << ", " << p2.getY() << ")";
    cout << endl;
 
-   Coord<string> p3("x", "y");
+   cout << "p3       : ";
+   Coord<string> p3("x", "y");   // ne compile pas
    p3.afficher();
    cout << endl;
 }
