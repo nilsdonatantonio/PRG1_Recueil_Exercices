@@ -67,3 +67,8 @@ add_executable(13-01-02-Class_point Exercices/13-Class_generique/13-01-02-Class_
 add_executable(01-01-Memoire Exercices/12-Iterator/01-01-Memoire.cpp)
 add_executable(02-04-Concat_vectors Exercices/12-Iterator/02-04-Concat_vectors.cpp)
 add_executable(02-05-Fusion_alternee Exercices/12-Iterator/02-05-Fusion_alternee.cpp)
+add_executable(14-03-02-Somme_n_premiers_entiers Exercices/14-Gestion_erreurs/14-03-02-Somme_n_premiers_entiers.cpp)
+add_executable(14-03-03-Vector_erase Exercices/14-Gestion_erreurs/14-03-03-Vector_erase.cpp)
+add_executable(14-05-01-Terminaison_programme_1 Exercices/14-Gestion_erreurs/14-05-01-Terminaison_programme_1.cpp)
+add_executable(99-06_Affichage_CSV Exercices/99-Exercices_recapitulatifs/99-06-Affichage_CSV/display_csv.cpp Exercices/99-Exercices_recapitulatifs/99-06-Affichage_CSV/display_csv.h
+        Exercices/99-Exercices_recapitulatifs/99-06-Affichage_CSV/main.cpp)
